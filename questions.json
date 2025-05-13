@@ -19,7 +19,7 @@
       "3": "Tất cả các phương án",
       "4": "Thực hiện các thao tác số học và logic trên dữ liệu đầu vào"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Bảng bộ mô tả gồm các bộ mô tả đoạn, mỗi bộ mô tả đoạn chứa:",
@@ -52,7 +52,7 @@
       "3": "Nằm ngay trên cung vật lý đầu tiên của Volume",
       "4": "Nằm tại cung vật lý thứ 2 của Volume"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Bảng trang gồm các mục bảng trang, mỗi mục bảng trang chứa:",
@@ -107,7 +107,7 @@
       "3": "Removeable disk",
       "4": "RAM và ROM"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Bộ nhớ được định nghĩa là gì?",
@@ -118,7 +118,7 @@
       "3": "Là tập hợp các ô nhớ bất kỳ dùng để lưu trữ dữ liệu",
       "4": "Là tập hợp có thứ tự các ô nhớ, mỗi ô nhớ có địa chỉ nhất định"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Bộ vi xử lý trung tâm có những kênh thực hiện lệnh song song nào?",
@@ -129,7 +129,7 @@
       "3": "Kênh U và kênh T",
       "4": "Kênh U và kênh F"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Bộ vi xử lý trung tâm Pentium có thể hoạt động ở những chế độ nào?",
@@ -140,7 +140,7 @@
       "3": "Chế độ thực và chế độ bảo vệ",
       "4": "Chế độ thực và chế độ phân quyền"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Bus địa chỉ dùng để làm gì?",
@@ -151,7 +151,7 @@
       "3": "Cung cấp địa chỉ ô nhớ và thiết bị mà CPU cần truy cập",
       "4": "Cung cấp địa chỉ thiết bị mà CPU cần truy nhập"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Bus điều khiển gồm những tín hiệu nào sau đây",
@@ -162,7 +162,7 @@
       "3": "Tín hiệu xung nhịp đồng hồ, Tín hiệu thu hồi vùng nhớ, Tín hiệu trả lời ngắt",
       "4": "Tín hiệu ghi cổng vào/ra, Tín hiệu yêu cầu ngắt, Tín hiệu xung nhịp đồng hồ.Tín hiệu xung nhịp đồng hồ, Tín hiệu trả lời ngắt, Tín hiệu ghi cổng vào ra"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Bus dữ liệu dùng để làm gì?",
@@ -195,7 +195,7 @@
       "3": "128",
       "4": "256"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Các chương trình điều khiển vào ra BIOS (Basic Input Output System) được lưu ở đâu trong kiến trúc máy vi tính PC",
@@ -206,7 +206,7 @@
       "3": "ROM",
       "4": "Thanh ghi của CPU"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Các đơn vị xử lý trung tâm 32 bit họ Intel x86 hỗ trợ quản lý bộ nhớ theo phân trang và sử dụng hai mức bảng trang là Thư mục trang và Bảng trang. Thư mục trang gồm các mục thư mục trang PDE, Bảng trang gồm các mục bảng trang PTE, trong đó:",
@@ -250,7 +250,7 @@
       "3": "Bus không có chiều",
       "4": "Đều là loại Bus hai chiều."
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Các thành phần cơ bản của một đơn vị điều khiển vi lập trình là:",
@@ -261,7 +261,7 @@
       "3": "Mạch logic tuần tự tạo tín hiệu điều khiển",
       "4": "Bộ nhớ điều khiển chứa vi chương trình và thanh ghi vi lệnh"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Cách thức tổ chức quản lý tệp tin bằng FAT32 cho phép quản lý 1 thư mục, tệp tin có kích thước tối đa là bao nhiêu?",
@@ -272,7 +272,7 @@
       "3": "2GB",
       "4": "4GB"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Cho địa chỉ vật lý bộ nhớ chính của máy tính là 16 bit, ký hiệu xxxx(Hexa, viết tắt là H). Cho kích thước của mỗi ô nhớ trong bộ nhớ chính là 8 bit. Giả sử chương trình con nằm ở vùng nhớ bắt đầu từ địa chỉ 5100H, giá trị của con trỏ ngăn xếp trước khi gọi và thực hiện chương trình con là SP = 7300H. Giả sử địa chỉ của ô nhớ chứa lệnh gọi chương trình con là 2500H và lệnh gọi chương trình con chiếm 3 ô nhớ. Khi đó lệnh gọi chương trình con sẽ có dạng sau:",
@@ -349,7 +349,7 @@
       "3": "X=  1B23H ,  Y= 0C24H",
       "4": "X=  1B23H ,  Y= 1D57H"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng  OP A, B.  Lệnh máy MOVE  A, B thực hiện chuyển giá trị toán hạng B đến đích A .  Ký hiệu X và Y là các thanh ghi của Đơn vị xử lý trung tâm.  Ký hiệu xxxxH là một con số dạng mã Hexa. Cho giá trị ban đầu giá trị ban đầu của các thanh ghi X= 0B37H, Y = 012CH . Hãy xác định trường hợp các thanh ghi X và Y có giá trị đúng, sau khi đơn vị xử lý trung tâm thực hiện một trong các lệnh sau :",
@@ -360,7 +360,7 @@
       "3": "MOVE  X,  E014HX=  0B37H ,Y= 012CH",
       "4": "MOVE  Y,  E014HX=  0B37H ,Y= E014H"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng  OP A, B.  Lệnh máy MOVE  A, B thực hiện chuyển giá trị toán hạng từ nguồn B đến đích A. Ký hiệu X và Y là các thanh ghi của Đơn vị xử lý trung tâm.  Ký hiệu xxxxH là một con số dạng mã Hexa. Ký hiệu [R] là nội dung ô nhớ mà địa chỉ của nó được xác định bởi thanh ghi R. Giả định các thanh ghi X và Y chứa các giá trị sau: X=  1853H và  Y= 5140H. Ô nhớ địa chỉ 5140H đang chứa giá trị 2040H. Sau khi Đơn vị xử lý trung tâm thực hiện lệnh MOVE [Y],  X  thì ô nhớ 5140H chứa giá trị nào sau đây:",
@@ -417,6 +417,17 @@
     },
     "correctAnswer": null
   },
+    {
+      "question" : "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng OP A, B. Ký hiệu X, Y là các thanh ghi của Đơn vị xử lý trung tâm. Lệnh máy ADD A, B thực hiện cộng giá trị toán hạng từ nguồn B với nguồn A, kết quả chứa vào A. Ký hiệu xxxxH là một con số dạng mã Hexa. Cho các giá trị ban đầu X= 1B23H, Y = 02C4H. Hãy xác định trường hợp các thanh ghi X và Y có giá trị đúng, sau khi đơn vị xử lý trung tâm thực hiện lệnh ADD Y,X :\n\n",
+    "image": null,
+    "options": {
+      "1": "3893H",
+      "2": "2040H",
+      "3": "5410H",
+      "4": "1853H "
+    },
+    "correctAnswer": 4
+  },
   {
     "question": "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng  OP A, B. Lệnh máy ADD  A, B thực hiện cộng giá trị toán hạng từ nguồn B với nguồn A, kết quả chứa vào A. Ký hiệu X là thanh ghi của Đơn vị xử lý trung tâm.  Ký hiệu xxxxH là một con số dạng mã Hexa. Ký hiệu [xxxxH] là nội dung ô nhớ có địa chỉ xxxxH. Giả định X =  1853H và ô nhớ  5140H đang chứa giá trị 2040H. Sau khi Đơn vị xử lý trung tâm thực hiện lệnh ADD X, [5140H] thì kết quả là:",
     "image": null,
@@ -437,7 +448,7 @@
       "3": "X=  0B37H ,  Y= 0901H  ,  Z= 012CH",
       "4": "X=  0B37H ,  Y= 0B37H  ,  Z= 0901H"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Cho một đơn vị xử lý trung tâm có kiến trúc như Hình 2-12 (Bài giảng KTMT Elearning). Giả định đơn vị xử lý trung tâm được thiết kế để thực hiện tập 10 lệnh với các chức năng như mô tả trong Bảng 2-1(Bài giảng KTMT Elearning). Qúa trình thực hiện các lệnh máy được mô tả trên Hình 2-14 (Bài giảng KTMT Elearning). Trong một chu kỳ lệnh, khi thực hiện tiểu chu kỳ nhập lệnh, đơn vị xử lý trung tâm thực hiện:",
@@ -480,7 +491,7 @@
       "3": "Nhập lệnh bất kỳ",
       "4": "Thực hiện lệnh JMP addr"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Cho sơ đồ xử lý dữ liệu giữa CPU và Bộ nhớ như sau:\nMBR <- M1001\nACC <-  ACC + MBR\nHãy cho biết phát biểu nào sau đây là đúng?",
@@ -491,7 +502,7 @@
       "3": "Sơ đồ trên yêu cầu giải phóng giá trị tại MBR sang ô nhớ có địa chỉ 1001 rồi thực hiện phép cộng giữa MBR và ACC. Kết quả lưu lại ở ACC",
       "4": "Sơ đồ trên yêu cầu nạp giá trị của ô nhớ tại địa chỉ 1001 rồi thực hiện phép cộng với 1 toán hạng ở ACC. Kết quả lưu lại về ACC"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Chu kỳ Bus là gì?",
@@ -502,7 +513,7 @@
       "3": "Là khoảng thời gian đóng, mở thiết bị 3 trạng thái",
       "4": "Là khoảng thời gian tín hiệu được truyền trên Bus"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Chu kỳ gián tiếp là gì?",
@@ -535,7 +546,7 @@
       "3": "Vào ra song song chuẩn giữa CPU với các thiết bị ngoại vi",
       "4": "Vào ra tuần tự giữa CPU với các thiết bị ngoại vi theo chuẩn RS-232"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Chức năng cơ bản của máy tính là gì ?",
@@ -579,7 +590,7 @@
       "3": "Chứa thông tin",
       "4": "Chứa tập tin chương trình và dữ liệu có liên quan"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Chức năng của đơn vị CU",
@@ -601,7 +612,7 @@
       "3": "Là các thanh ghi phục vụ cơ chế bảo vệ chương trình con",
       "4": "Là nhóm thanh ghi phục vụ các chương trình ROM BIOS"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Chức năng của thanh ghi ISR trong xử lý ngắt là gì?",
@@ -634,7 +645,7 @@
       "3": "Lưu trữ địa chỉ của ô nhớ chứa lệnh hoặc toán hạng của CPU đang truy cập",
       "4": "Lưu trữ dữ liệu để nạp vào ALU tính toán"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Chức năng của thiết bị đầu ra ?",
@@ -645,7 +656,7 @@
       "3": "Hiển thị kết quả tính toán của máy tính",
       "4": "Xuất ra thông tin từ máy tính"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Chức năng của thiết bị đầu vào ?",
@@ -656,7 +667,7 @@
       "3": "Nhập thông tin dạng ký tự vào cho máy tính",
       "4": "Nhập thông tin vào cho máy tính"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Chương trình máy tính được định nghĩa là gì?",
@@ -667,7 +678,7 @@
       "3": "Một chuối các chỉ thị được lưu trữ trên các thiết bị lưu trữ",
       "4": "Một chuỗi các dữ liệu liên tiếp được CPU xử lý"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Có bao nhiêu phương pháp xác định địa chỉ toán hạng?",
@@ -733,7 +744,7 @@
       "3": "4",
       "4": "5"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Có mấy loại tín hiệu trong Bus điều khiển?",
@@ -744,7 +755,7 @@
       "3": "8",
       "4": "9"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Có những loại chu kỳ Bus nào sau đây",
@@ -1039,7 +1050,7 @@
       "3": "Bộ nhớ chính",
       "4": "Thiết bị đầu vào"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Đơn vị xử lý trung tâm thực hiện một lệnh máy cụ thể bằng cách thực thi:",
@@ -1050,7 +1061,7 @@
       "3": "Một chuỗi các vi thao tác xác định theo một trình tự xác định trước trên cơ sở giải mã lệnh máy",
       "4": "Một chuỗi các vi thao tác theo một trình tự xác định trước"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Dữ liệu được truyền giữa CPU với các thiết bị theo dạng nào?",
@@ -1094,7 +1105,7 @@
       "3": "Giá trị toán hạng đích của lệnh đang thực thi",
       "4": "Thành phần địa chỉ có trên lệnh đang thực thi"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Giả định đơn vị xử lý trung tâm được thiết kế để thực hiện tập lệnh với khuôn dạng chỉ có một thành phần địa chỉ. Khi đó, nếu mã thao tác chỉ rõ kiểu xác định địa chỉ toán hạng là gián tiếp thì tiểu chu kỳ gián tiếp sẽ được thực hiện. Ký hiệu xxxxH là một số dạng mã Hexa. Giả định tập lệnh có khuôn dạng 16 bit,  4 bit đầu tiên là mã thao tác và lệnh chỉ có một thành phần địa chỉ. Chon con trỏ lệnh PC= 725H , cho ô nhớ 725H chứa một lệnh máy mà mã thao tác của nó chứa thông tin về kiểu xác định địa chỉ là gián tiếp và phần địa chỉ của lệnh máy này chứa con số 834H. Ô nhớ 834H chứa con số 986H. Vậy sau khi nhập lệnh và thực hiện tiểu chu kỳ gián tiếp, thanh ghi MAR sẽ chứa giá trị sau:",
@@ -1455,7 +1466,7 @@
       "3": "Chức năng cơ bản của đơn vị điều khiển",
       "4": "Phân tích kết quả của việc giải mã các lệnh máy"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Khi thực hiện một lệnh máy, đơn vị xử lý trung tâm:",
@@ -1465,7 +1476,7 @@
       "2": "Không phải thực hiện các thao tác xác định địa chỉ toán hạng và nhập toán hạng",
       "3": "Tuỳ vào lệnh máy cụ thể mới phải thực hiện các thao tác xác định địa chỉ toán hạng và nhập toán hạng"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Khi thực hiện tính toán địa chỉ vật lý của ô nhớ cần truy cập, đơn vị xử lý trung tâm sẽ lấy địa chỉ nền đoạn vật lý cần truy cập từ:",
@@ -1531,7 +1542,7 @@
       "3": "0424H",
       "4": "0614H"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Ký hiệu xxxxH là một số dạng mã Hexa. Cho một tập lệnh có khuôn dạng 16 bit,  4 bit đầu tiên là mã thao tác và lệnh chỉ có một thành phần địa chỉ. Cho bộ nhớ có ô nhớ rộng 16 bit. Lệnh máy ADD xxxH thực hiện cộng nội dung ACC với nội dung của ô nhớ có địa chỉ xxxH xác định trên lệnh, kết quả chứa vào ACC. Cho  ACC=2375H, con trỏ lệnh PC= 424H , ô nhớ 424H chứa lệnh ADD 614H,  ô nhớ 614H chứa giá trị 1411H. Sau tiểu chu kỳ thực hiện lệnh ADD 614H, thanh ghi ACC có giá trị:",
@@ -1564,7 +1575,7 @@
       "3": "0375H",
       "4": "0614H"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Ký hiệu xxxxH là một số dạng mã Hexa. Cho một tập lệnh có khuôn dạng 16 bit,  4 bit đầu tiên là mã thao tác và lệnh chỉ có một thành phần địa chỉ. Cho bộ nhớ có ô nhớ rộng 16 bit. Lệnh máy STORE xxxH thực hiện sao nội dung ACC ra ô nhớ có địa chỉ xxxH xác định trên lệnh. Cho  ACC=0637H, con trỏ lệnh PC= 354H , ô nhớ 354H chứa lệnh STORE 485H,  ô nhớ 485H chứa giá trị 2323H. Sau tiểu chu kỳ thực hiện lệnh STORE 485H,  thanh ghi MAR có giá trị:",
@@ -1826,7 +1837,7 @@
       "3": "Đơn vị điều khiển CU",
       "4": "Con trỏ lệnh PC"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Quá trình vào/ra dữ liệu theo phương pháp ngắt cứng là quá trình:",
@@ -1837,7 +1848,7 @@
       "3": "Đơn vị xử lý trung tâm gọi và thực hiện chương trình vào/ra dữ liệu theo trình tự xác định trước với thiết bị ngoại vi có yêu cầu",
       "4": "Bộ điều khiển ngắt PIC điều khiển quá trình vào/ra dữ liệu với thiết bị ngoại vi có yêu cầu"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Quá trình vào/ra dữ liệu theo phương pháp truy nhập trực tiếp bộ nhớ (phương pháp DMA) là quá trình",
@@ -1892,7 +1903,7 @@
       "3": "Để giảm tải cho đơn vị xử lý trung tâm",
       "4": "Vì mỗi thiết bị ngoại vi cần một phương pháp vào/ra (nhập/xuất) dữ liệu riêng tương ứng"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Thanh ghi nào sau đây không phải là thanh ghi đoạn trong kiến trúc CPU x86",
@@ -2331,7 +2342,7 @@
       "3": "Xác định vị trí lệnh máy tiếp theo cần thực hiện",
       "4": "Xác định vị trí thủ tục (chương trình con) lệnh máy tiếp theo cần thực hiện"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong đơn vị điều khiển vi lập trình, mỗi vi lệnh có khả năng biểu diễn:",
@@ -2441,8 +2452,9 @@
       "3": "Hệ nhị phân",
       "4": "Cả ba hệ đếm: thập phân, nhị phân và thập lục phân"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
+
   {
     "question": "Trong mỗi dòng cache đều có một (hoặc nhiều) trường thông tin gọi là thẻ (tag). Số thẻ này đóng vai trò gì trong tìm kiếm và truy cập thông tin trên cache:",
     "image": null,
@@ -2517,7 +2529,7 @@
       "3": "Vi thủ tục tiểu chu kỳ Thực hiện lệnh",
       "4": "Vi thủ tục tiểu chu kỳ Gián tiếp"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong ví dụ thiết kế một đơn vị điều khiển vi lập trình (Mục 2.3.4, KTMT Elearning ),  một số vi lệnh (Bảng 2-5) có chứa bit điều khiển hoạt hoá vi thao tác PC  PC + 1. Việc thực hiện vi thao tác  PC  PC + 1 đóng vai trò :",
@@ -2561,7 +2573,7 @@
       "3": "ô nhớ 36 trong CM",
       "4": "ô nhớ 39 trong CM"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Ưu điểm của cache tập liên kết là gì?",
@@ -2660,7 +2672,7 @@
       "3": "11111",
       "4": "01001"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit. Lệnh LOAD xxxxx thực hiện nhập nội dung ô nhớ địa chỉ xxxxx vào ACC. Lệnh STORE xxxxx thực hiện cất nội dung thanh ghi ACC ra ô nhớ đích có địa chỉ xxxxx. Hãy khảo sát quá trình đơn vị xử lý trung tâm thực hiện tuần tự hai lệnh sau:LOAD   01100STORE  11011 với giả định ô nhớ 01100 chứa giá trị 10110,  ô nhớ 11011 chứa giá trị 10010 Vậy sau khi thực hiện xong lệnh STORE  11011, ô nhớ 11011 sẽ có giá trị :",
@@ -2681,7 +2693,7 @@
       "2": "Chuyển giá trị toán hạng từ ô nhớ địa chỉ xxxxx vào đơn vị xử lý trung tâm , lấy nội dung ACC trừ đi nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC",
       "3": "Lấy nội dung ACC trừ đi nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một thành phần địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit. Lệnh  LOAD xxxxx thực hiện nạp nội dung ô nhớ địa chỉ xxxxx vào thanh tích luỹ ACC. Giả sử ACC chứa gía trị 01101, ô nhớ 10110 chứa gía trị 10101. Vậy khi thực hiện lệnh LOAD 10110, ACC sẽ có giá trị:",
@@ -2690,6 +2702,17 @@
       "1": "10101",
       "2": "01101",
       "3": "10110",
+      "4": "11001"
+    },
+    "correctAnswer": 1
+  },
+    {
+      "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một thành phần địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit. Lệnh LOAD xxxxx thực hiện nạp nội dung ô nhớ địa chỉ xxxxx vào thanh tích luỹ ACC. Giả sử ACC chứa gía trị 01101, ô nhớ 10110 chứa gía trị 10101. Vậy khi thực hiện lệnh LOAD 10110, ACC sẽ có giá trị",
+    "image": null,
+    "options": {
+      "1": "10101",
+      "2": "10110",
+      "3": "01101",
       "4": "11001"
     },
     "correctAnswer": 1
