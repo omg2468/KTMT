@@ -8,7 +8,7 @@
       "3": "MBR",
       "4": "ACC"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "ALU được dùng để làm gì?",
@@ -63,7 +63,7 @@
       "3": "Địa chỉ nền khung trang trong bộ nhớ vật lý",
       "4": "Địa chỉ nền khung trang và các thông tin về quyền truy cập khung trang trong bộ nhớ vật lý"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Bit cờ F trong dòng cache được đặt lên 1 để:",
@@ -173,7 +173,7 @@
       "3": "Chuyển địa chỉ ô nhớ, địa chỉ cổng và các thiết bị khác cho CPU",
       "4": "Tất cả các đáp trên"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Bus dữ liệu là loại Bus",
@@ -184,7 +184,7 @@
       "3": "Bus 2 chiều gồm 8 đường dây",
       "4": "Tất cả các phương án"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Các bộ vi xử lý dòng Pentium x86 có phục vụ được tối đa là bao nhiêu ngắt?",
@@ -228,7 +228,7 @@
       "3": "4GB",
       "4": "8GB"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Các lệnh máy của một chương trình ứng dụng đang chạy sẽ được đơn vị xử lý trung tâm lần lượt nhập vào từ:",
@@ -327,18 +327,7 @@
       "3": "101110",
       "4": "101111"
     },
-    "correctAnswer": null
-  },
-  {
-    "question": "Cho ma trận phím trên, giả sử tại thời điểm dây C2 đang nhận giá trị 0 (đang quét), phím E được nhấn. Hãy cho biết mã quét của phím E nhận được là bao nhiêu?",
-    "image": "data:image/png;base64, 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",
-    "options": {
-      "1": "101111",
-      "2": "101110",
-      "3": "101011",
-      "4": "101101"
-    },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng  OP A, B.  Ký hiệu X, Y là các thanh ghi của Đơn vị xử lý trung tâm. Lệnh máy ADD  A, B thực hiện cộng giá trị toán hạng từ nguồn B với nguồn A, kết quả chứa vào A. Ký hiệu xxxxH là một con số dạng mã Hexa. Cho các giá trị ban đầu X= 1B23H, Y = 02C4H. Hãy xác định trường hợp các thanh ghi X và Y có giá trị đúng, sau khi đơn vị xử lý trung tâm thực hiện lệnh ADD Y,X :",
@@ -371,7 +360,7 @@
       "3": "2040H",
       "4": "1853H"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng  OP A, B.  Lệnh máy MOVE  A, B thực hiện chuyển giá trị toán hạng từ nguồn B đến đích A. Ký hiệu X và Y là các thanh ghi của Đơn vị xử lý trung tâm.  Ký hiệu xxxxH là một con số dạng mã Hexa. Ký hiệu [R] là nội dung ô nhớ mà địa chỉ của nó được xác định bởi thanh ghi R. Giả định X =  1853H và  Y= 5140H. Ô nhớ địa chỉ 5140H đang chứa giá trị 2040H. Sau khi Đơn vị xử lý trung tâm thực hiện lệnh MOVE X, [Y] thì",
@@ -393,7 +382,7 @@
       "3": "X=  0A37H ,  Y= 0A37H",
       "4": "X=  0A37H ,  Y= 012CH"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng  OP A, B. Lệnh máy ADD  A, B thực hiện cộng giá trị toán hạng từ nguồn B với nguồn A, kết quả chứa vào A.  Ký hiệu X và Y là các thanh ghi của Đơn vị xử lý trung tâm.  Ký hiệu xxxxH là một con số dạng mã Hexa. Ký hiệu [R] là nội dung ô nhớ mà địa chỉ của nó được xác định bởi thanh ghi R. Giả định các thanh ghi X và Y chứa các giá trị sau: X =  1853H và  Y= 5140H. Ô nhớ địa chỉ 5140H đang chứa giá trị 2040H. Sau khi Đơn vị xử lý trung tâm thực hiện lệnh ADD X, [Y] thì",
@@ -415,7 +404,7 @@
       "3": "5140H",
       "4": "9160H"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
     {
       "question" : "Cho một Đơn vị xử lý trung tâm có khả năng xử lý tập lệnh máy dạng OP A, B. Ký hiệu X, Y là các thanh ghi của Đơn vị xử lý trung tâm. Lệnh máy ADD A, B thực hiện cộng giá trị toán hạng từ nguồn B với nguồn A, kết quả chứa vào A. Ký hiệu xxxxH là một con số dạng mã Hexa. Cho các giá trị ban đầu X= 1B23H, Y = 02C4H. Hãy xác định trường hợp các thanh ghi X và Y có giá trị đúng, sau khi đơn vị xử lý trung tâm thực hiện lệnh ADD Y,X :\n\n",
@@ -524,7 +513,7 @@
       "3": "Chu kỳ kết thúc lệnh cũ và chuyển sang thực hiện lệnh mới",
       "4": "Chu kỳ thực hiện lệnh từ một CPU khác gửi tới"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Chu kỳ ngắt dùng để làm gì?",
@@ -535,7 +524,7 @@
       "3": "Để dừng các thao tác đang thực hiện, bảo vệ dữ liệu và chuyển sang thực hiện chu kỳ lệnh mới",
       "4": "Tất cả các phương án đều sai"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Chức năng chính của module giao diện UART 8250 là gì?",
@@ -568,7 +557,7 @@
       "3": "Đếm số lượng chương trình đang được xử lý bới CPU",
       "4": "Đếm số lượng chương trình mà CPU chuẩn bị thực hiện"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Chức năng của bộ nhớ chính",
@@ -579,7 +568,7 @@
       "3": "Lưu trữ thông tin dữ liệu người dùng khi không tham gia vào tính toán",
       "4": "Lưu trữ thông tin về nhà sản xuất và thiết bị vật lý"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Chức năng của bộ nhớ chính là gì ?",
@@ -601,7 +590,7 @@
       "3": "Giải mã lệnh.Tạo chuỗi điều khiển tín hiệuĐiều phối hoạt động máy tính",
       "4": "Mã hóa lệnhQuản lý bộ nhớĐiều khiển hoạt động của máy tính"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Chức năng của nhóm thanh ghi EAX, EBX, ECX, EDX là gì?",
@@ -623,7 +612,7 @@
       "3": "Phân loại độ ưu tiên của các tín hiệu ngắt IRQ",
       "4": "Tiếp nhận các tín hiệu ngắt như một hàng đợi, chờ đến lượt CPU phục vụ"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Chức năng của thành phần ALU là gì?",
@@ -634,7 +623,7 @@
       "3": "Bộ xử lý toán học, chuyên biệt để thực hiện các phép tính với các số lớn",
       "4": "Thực hiện các phép tính số học, logic và các phép xử lý dữ liệu khác"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Chức năng của thành phần MAR là gì?",
@@ -689,7 +678,7 @@
       "3": "7",
       "4": "8"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Cơ chế để đơn vị xử lý trung tâm bắt nhịp được với hoạt động của thiết bị ngoại vi ở phương pháp vào-ra theo ngắt cứng là :",
@@ -766,7 +755,7 @@
       "3": "Chu kỳ nhập lệnh, ghi/ đọc bộ nhớ",
       "4": "Chu kỳ xung nhịp đồng hồ, Chu kỳ yêu cầu Bus"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Có những loại chu kỳ Bus nào sau đây",
@@ -776,7 +765,7 @@
       "2": "Chu kỳ nhập lệnh, ghi/ đọc bộ nhớ",
       "3": "Chu kỳ xung nhịp đồng hồ, Chu kỳ yêu cầu Bus"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Công thức nào sau đây được sử dụng để chuyển đổi địa chỉ liên cung vật lý thành liên cung logic trong hệ thống tệp tin FAT",
@@ -787,7 +776,7 @@
       "3": "Địa chỉ cung logic=(Địa chỉ liên cung-2)*(Số lượng cung trên một liên cung) + Địa chỉ cung logic đầu tiên của vùng dữ liệu.",
       "4": "Địa chỉ cung logic=(Địa chỉ liên cung-2) + Địa chỉ cung logic đầu tiên của vùng dữ liệu."
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Cung khởi động chủ MBR có chức năng gì?",
@@ -798,7 +787,7 @@
       "3": "Dùng để khởi động các thiết bị ngoại vi vào trạng thái sẵn sàng làm việc",
       "4": "Dùng để khởi động máy tính"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Cung vật lý đầu tiên của ổ đĩa (mặt 0, rãnh 0, cung 1) được hệ điều hành sử dụng để lưu trữ thông tin gì?",
@@ -809,7 +798,7 @@
       "3": "Cung khởi động chủ (Master Boot Record)",
       "4": "Bảng phân vùng"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Đặc điểm của đơn vị điều khiển cứng hoá là chuỗi các tín hiệu điều khiển các vi thao tác thuộc một lệnh máy được tạo ra từ:",
@@ -842,7 +831,7 @@
       "3": "Mất thông tin khi mất nguồn nuôi, mật độ thấp nhưng tốc độ truy nhập cao và không cần làm tươi thông tin",
       "4": "Mất thông tin khi mất nguồn nuôi, mật độ thấp, tốc độ truy cập thấp nhưng không phải làm tươi thông tin"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Đặc điểm DRAM (Dyamic Random Access Memory) là gì?",
@@ -853,7 +842,7 @@
       "3": "Tốc độ truy cập thấp, mật độ cao, phải làm tươi thông tin",
       "4": "Tốc độ truy cập thấp, mật độ cao, không cần làm tươi thông tin"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Đâu không phải là đặc điểm của các máy tính loại CISC",
@@ -864,7 +853,7 @@
       "3": "Số lượng lệnh lớn",
       "4": "Tập các thanh ghi dùng chung hạn chế"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Đâu không phải là đặc điểm của các máy tính loại RISC",
@@ -875,7 +864,7 @@
       "3": "Sử dụng chương trình dịch để tối ưu hóa hiệu năng làm việc",
       "4": "Thực hiện lệnh trong nhiều chu kỳ nhịp"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Để chạy một chương trình ứng dụng nào đó, khi đó toàn bộ nội dung của tập tin chương trình ứng dụng đó:",
@@ -897,7 +886,7 @@
       "3": "Nạp lệnhThực hiện lệnhMã hóa dữ liệuKết quả",
       "4": "Nạp lênhThực hiện lệnhMã hóa kết quảGhi kết quaả"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Địa chỉ các cổng vào-ra ở trên các máy tính được gọi là “máy vi tính PC” :",
@@ -940,7 +929,7 @@
       "3": "Định vị tức thời",
       "4": "Tất cả các phương án"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Định vị tức thời là chế độ định vị mà",
@@ -951,8 +940,17 @@
       "3": "Giá trị của toán hạng được nằm ngay trên lệnh",
       "4": "Giá trị của toán hạng được nằm ngay trên thanh ghi MBR"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
+    {
+    "question": "Có bao nhiêu phương pháp xác định địa chỉ toán hạng phổ biến nhất",
+    "image": null,
+    "options": {
+      "1": "6"
+    },
+    "correctAnswer": 1
+  },
+
   {
     "question": "Đơn vị  xử lý  trung tâm  họ Intel 80x86 có khả năng  xử lý  tập lệnh máy  dạng  OP A, B . Ký hiệu xxxxH là một con số dạng mã Hexa. Lệnh máy ADD  A, B thực hiện cộng giá trị toán hạng từ nguồn B với đích A , kết quả chứa vào A. Ký pháp [R+xxxxH] biểu diễn phương pháp xác định địa chỉ Cơ sở+khoảng dịch. Giả định AX = 2040H, BX = 5140H. Các ô nhớ 5140H, 5141H và 5142H đang chứa các giá trị 1853H, 1843H và 1833H. Sau khi lệnh ADD AX, [BX+2H] được thực hiện thì :",
     "image": null,
@@ -972,17 +970,6 @@
       "2": "AX = 2040H",
       "3": "AX = 1853H",
       "4": "AX = 7180H"
-    },
-    "correctAnswer": 1
-  },
-  {
-    "question": "Đơn vị  xử lý  trung tâm  họ Intel 80x86 có khả năng  xử lý  tập lệnh máy  dạng  OP A, B . Ký hiệu xxxxH là một con số dạng mã Hexa. Lệnh máy ADD  A, B thực hiện cộng giá trị toán hạng từ nguồn B với đích A, kết quả chứa vào A. Ký pháp [R] xác định thanh ghi R đang chứa địa chỉ (đang trỏ đến) một ô nhớ. Giả định AX = 2040H, BX = 5140H, ô nhớ 5140H đang chứa giá trị 1853H. Sau khi lệnh ADD AX, [BX] được thực hiện thì :",
-    "image": null,
-    "options": {
-      "1": "AX = 3893H",
-      "2": "AX = 7180H",
-      "3": "AX = 1853H",
-      "4": "AX = 2040H"
     },
     "correctAnswer": 1
   },
@@ -1028,7 +1015,7 @@
       "3": "Khối điều khiển và khối xử lý dữ liệu",
       "4": "Tất cả các phương án"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Đơn vị xử lý trung tâm kiểm tra bit cờ nào và ở tiểu chu kỳ nào trong chu kỳ lệnh trước khi quyết định thực hiện hoặc không thực hiện chu kỳ ngắt:",
@@ -1063,6 +1050,14 @@
     },
     "correctAnswer": 3
   },
+    {
+    "question": "Đặc điểm của đơn vị điều khiển cứng hóa là chuỗi các tín hiệu điều khiển các vi thao tácthuộc một lệnh máy được tạo ra từ",
+    "image": null,
+    "options": {
+      "1": "Hoạt động của mạch logic tuần tự tương ứng với kết quả giải mã lệnh máy"
+    },
+    "correctAnswer": 1
+  },
   {
     "question": "Dữ liệu được truyền giữa CPU với các thiết bị theo dạng nào?",
     "image": null,
@@ -1072,7 +1067,7 @@
       "3": "Truyền theo khối",
       "4": "Truyền vừa song song vừa nối tiếp"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Dữ liệu được truyền tải giữa KC 8042 với CPU được sử dụng phương pháp kiểm tra dữ liệu nào để xác nhận độ vẹn toàn của dữ liệu",
@@ -1083,7 +1078,7 @@
       "3": "NZR",
       "4": "NZRI"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Dựa vào đâu mà đơn vị xử lý trung tâm có thể kết nối và trao đổi thông tin với nhiều đối tượng (thiết bị) khác nhau trên cùng một đường bus chung mà không bị xung đột :",
@@ -1116,7 +1111,7 @@
       "3": "834H",
       "4": "986H"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Giả sử khi CPU đang thực hiện 1 chương trình con phục vụ ngắt, có 1 thiết bị vào ra khác cũng gửi tín hiệu yêu cầu ngắt thứ 2 đến CPU. Quá trình xử lý của CPU sẽ diễn ra như thế nào?",
@@ -1127,7 +1122,7 @@
       "3": "Chuyển yêu cầu ngắt thứ 2 vào hàng đợi cho đến khi thực hiện xong chương trình con phục vụ ngắt thứ nhất",
       "4": "Thực hiện ngay lập tức yêu cầu ngắt thứ 2. Sau khi thực hiện xong sẽ quay về thực hiện chương trình con phục vụ ngắt thứ nhất"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Giả sử ta có chỉ thị lệnh\nADD xxxx\nKhi đó quá trình thực hiện trong CPU được diễn ra như thế nào?",
@@ -1138,7 +1133,7 @@
       "3": "Giá trị xxxx sẽ được cộng với giá trị tạm thời ở ACC và lưu vào ACC",
       "4": "Giá trị xxxx sẽ được cộng với giá trị tạm thời ở PC và lưu vào ACC"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Giả sử ta có địa chỉ đoạn là: 0A00H, địa chỉ offset của ô nhớ trong đoạn là: 022CH (địa chỉ ô nhớ dạng 0A00:022C ). Vậy địa chỉ vật lý của ô nhớ là bao nhiêu (dạng Hexa)",
@@ -1149,18 +1144,7 @@
       "3": "0C22CH",
       "4": "0C22CH"
     },
-    "correctAnswer": null
-  },
-  {
-    "question": "Giả sử ta có địa chỉ đoạn là: 0A00H, địa chỉ offset của ô nhớ trong đoạn là: 022CH (địa chỉ ô nhớ dạng 0A00:022C ). Vậy địa chỉ vật lý của ô nhớ là bao nhiêu (dạng Hexa)",
-    "image": null,
-    "options": {
-      "1": "AA22CH",
-      "2": "AB22CH",
-      "3": "BC22CH",
-      "4": "DC22CH"
-    },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Giả thiết đoạn dữ liệu có mức đặc quyền DPL=3, đoạn mã lệnh có mức đặc quyền CPL=2. Chọn đáp án đúng trong các đáp án sau:",
@@ -1181,7 +1165,7 @@
       "3": "Giá trị của ACC được nạp vào MBR",
       "4": "Giá trị của ô nhớ M tại địa chỉ xxxx sẽ được nạp vào ACC"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Hãy chi ra phát biểu đúng trong các phát biểu sau:",
@@ -1192,7 +1176,7 @@
       "3": "Lệnh được nhập vào IR, phần mã lệnh được nhập vào PC",
       "4": "Lệnh được nhập vào IR, phần mã lệnh sẽ được ghi vào ACC"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Hãy chỉ ra phát biểu đúng trong các phát biểu sau:",
@@ -1203,7 +1187,7 @@
       "3": "Trong hệ thống NTFS tồn tại 2 bảng MFT có vị trí không cố định",
       "4": "Trong hệ thống NTFS cũng  tồn tại 2 bảng MFT nằm ngay sau Volume Boot Record"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Hãy chỉ ra phát biểu đúng trong các phát biểu sau?",
@@ -1214,18 +1198,7 @@
       "3": "Hệ thống ngắt cứng của máy vi tính PC được thiết kế sẵn do các nhà sản xuất và người dùng không thể can thiệp được.",
       "4": "Hệ thống ngắt cứng của máy vi tính PC luôn được thiết kế để người dùng bắt buộc phải can thiệp để khởi động các chương trình con ngắt."
     },
-    "correctAnswer": null
-  },
-  {
-    "question": "Hãy chỉ ra phát biểu đúng trong các phát biểu sau?",
-    "image": null,
-    "options": {
-      "1": "Hệ thống ngắt cứng của máy vi tính PC được thiết kế cho phép người lập trình càn thiệp được nhưng tùy theo các nhà sản xuất.",
-      "2": "Hệ thống ngắt cứng của máy vi tính PC được thiết kế để người dùng có thể can thiệp được bằng cách lập trình với các từ điều khiển hoạt động.",
-      "3": "Hệ thống ngắt cứng của máy vi tính PC luôn được thiết kế để người dùng bắt buộc phải can thiệp để khởi động các chương trình con ngắt.",
-      "4": "Hệ thống ngắt cứng của máy vi tính PC được thiết kế sẵn do các nhà sản xuất và người dùng không thể can thiệp đượ"
-    },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Hãy chỉ ra phát biểu đúng về PC?",
@@ -1236,7 +1209,7 @@
       "3": "Không có phương án đúng",
       "4": "Giá trị của PC tăng tuần tự nhưng có thể thay đổi đột biến"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Hãy chỉ ra phát biểu sai trong các phát biểu sau?",
@@ -1247,7 +1220,7 @@
       "3": "Hệ thống tệp tin NTFS được xây dựng nhằm tăng cường tính bảo mật, phần quyền cho nhiều người dùng",
       "4": "Hệ thống tệp tin NTFS là hệ thống lưu trữ tệp tin chuẩn cho các máy vi tính PC"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Hãy chỉ ra thứ tự đúng trong cách thức tổ chức quản lý tệp tin theo định dạng FAT",
@@ -1258,7 +1231,7 @@
       "3": "Cung khởi độngThư mực gốcFAT#1FAT#2Vùng chứa tệp tin và thư mục",
       "4": "Cung khởi độngThư mục gốcVùng chứa tệp tin và thư mụcFAT#1FAT#2"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Hãy chỉ ra thứ tự thực hiện các lệnh sau:\n\nNhập lệnh\nTạo địa chỉ toán hạng\nGiải mã lệnh\nNhập toán hạng\nThực thi lệnh",
@@ -1269,17 +1242,7 @@
       "3": "2, 1, 3, 4, 5",
       "4": "2, 1, 3, 4, 5"
     },
-    "correctAnswer": null
-  },
-  {
-    "question": "Hãy chỉ ra thứ tự thực hiện các lệnh sau:\n\nNhập lệnh\nTạo địa chỉ toán hạng\nGiải mã lệnh\nNhập toán hạng\nThực thi lệnh",
-    "image": null,
-    "options": {
-      "1": "1, 3, 2, 4, 5",
-      "2": "1, 2, 4, 5, 3",
-      "3": "2, 1, 3, 4, 5"
-    },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Hãy cho biết các loại Bus trong máy tính?",
@@ -1290,7 +1253,7 @@
       "3": "Bus hệ thống, Bus dữ liệu, Bus lệnh",
       "4": "Bus địa chỉ, Bus dữ liệu, Bus điều khiển"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Hãy sắp xếp lại thứ tự thực hiện chu kỳ nhập lệnh trong các thao tác sau:\n\nMBR ← bộ nhớ\nMAR ← PC\nPC   ← PC + 1\nIR   ← MBR",
@@ -1301,7 +1264,7 @@
       "3": "1,4,2,3",
       "4": "1,3,2,4"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Hệ thống bộ nhớ vật lý của máy tính, xét cả trình tự ưu tiên truy cập từ đơn vị xử lý trung tâm, là hệ thống bộ nhớ:",
@@ -1323,7 +1286,7 @@
       "3": "Kết nối giữa CPU với các thiết bị ngoại vi.",
       "4": "Làm môi trường truyền tin giữa các thiết bị"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Hệ thống giao diện bàn phím của các máy vi tính PC bao gồm các thiết bị nào giao diện nào?",
@@ -1334,7 +1297,7 @@
       "3": "2 thiết bị KC8048 hoạt động song song",
       "4": "KC8048"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Hệ thống máy vi tính AT có thể phục vụ được tối đa bao nhiêu kênh DMA nhờ các bộ điều khiển DMAC 8237",
@@ -1345,7 +1308,7 @@
       "3": "4",
       "4": "8"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Hình sau là thể hiện của phương pháp định vị nào?",
@@ -1356,7 +1319,7 @@
       "3": "Định vị trực tiếp",
       "4": "Định vị gián tiếp thanh ghi"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Hình sau là thể hiện của phương pháp định vị nào?",
@@ -1367,18 +1330,7 @@
       "3": "Định vị gián tiếp thanh ghi",
       "4": "Định vị trực tiếp"
     },
-    "correctAnswer": null
-  },
-  {
-    "question": "Hình sau là thể hiện của phương pháp định vị nào?",
-    "image": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAMwAAAC6CAYAAADiWaIuAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH3ggBCCIQ2Dr8pwAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tInAAAgAElEQVR4nO29eXRUVbq//1RVqiqVuTKPJIEAgZCAYRCQyQk7tARULti22l5RoVUcr9h6/aqgNraCAnbbOFwHVFQUUARREKQhDAJiEogQCJnngQyVmofz+yMr50cgYCqEDLiftbIWnH2G95w6n7P3fve7362QJElCIBB0CI+LOdjphJoaUCpBkkChaPmTpJa/1u3tlSkUbc/VWnY23t4tfwJBb0AhahiBoOO0W8PU19fz9ddf43A4utueNigU4OGhxmaz0Zd1rVQqUSgUuFyuXncfLpeLsLAwbrrppp42pU/QrmCOHj3KmjVrCA4O7m572uBwOCgtLWXgwIE9asfFUltbi9VqJTIyEsXZbdEexm6343A4uO666/D19e1pc3o97QpGqVTy9ttvExcX183mnMt3333HH/7wh54246IoKSmhtraWK664oqdNaZft27fT2NgoBNMBlOcraGho6E472sVisWAwGHrajIumoaGBpqamnjbjvJhMJpTK874KgjMQT0kgcAMhGIHADYRgBAI3EIIRCNxACEYgcAMhGIHADc4rmM6MSGdlZeFyuS7KoI7icDh4+eWXOXTokNvHZWdnX3Cf4uJiKisr2y0zGo3k5OQALe7Y7Oxs3nnnHdasWeOWHe2RlZV10ecoLi7m5MmTZGZmyttcLtdv3rOgY5xXMFqtlvr6eh588EGKiooAsNls/O1vf2v34R85coSlS5e6NZK9c+dOdu/e3Qmzoaamhv3793Ps2DHuvfde5s+fzyOPPILJZOLLL7887zjSnj17WLly5QXPvWjRIvLz89stW7duHR9//DHQEkK0bt06rFYrW7dudcv+devWcf/997N//34WLlzIypUreffdd9vdd/v27Wzbtq1D512yZAn79u1j8+bN8raDBw+ybNkyt+wTtM95BeNyuVCr1ezZs4d9+/YBcOLECbZu3Upubi5Lly6VX8r6+nrMZjMREREdqpkqKioAOHnyZKdDRcxmM3fccQepqalotVpqa2vR6XQUFRWxY8cOWeRn0tDQIMdOXYioqCg8PNoP5A4KCiIgIED+95w5c3jwwQcZPXq0W/arVCry8vIIDAxk9+7dhISEEBQU1O6+/v7+Ha7xQ0NDiYiIYPbs2fI2X19fQkJC3LJP0D7nFYzdbsfHx4fZs2fz66+/Ai0hHmPHjuX6669n3759fP/99wCUlZXh7e3NgAEDfnPE2OVycerUKVwuF6NHj2bChAmdM1yppK6ujrCwMP73f/+XmTNnsmjRIiRJ4t5770WtVp9zTElJCaGhocTGxl7w3KNGjUKlUrVblpiYKL98np6eDB06lPr6emw2m1v2T5o0iVtvvZXIyEiefvpp/vSnP503di8lJYXhw4d36LxXXHEFPj4+beLv4uPjf/OeBR3jvG9365c/KiqKxsZGoKXN7u3tTUBAAIsXL+bqq68GYNeuXRQWFiJJUpt9m5ubAWhqasJisQBQXV3Nzp07sdlsREZGIkkSkiR1KhTH6XQSGBiIJEnU1dWh0WiIiYkhKiqK6OhoJElqE1qzfft2SktLcblcsm1GoxGj0Qi0hOJYLBacTidms1m2uXU/m82GUqnEbrfLxzudzk7VkjabDbvdTnZ2NqNGjZKv23peq9UqP0uj0YhOp5NtNJvNwLnhS2azmfr6ehQKBU6nU97HarXK99zboqX7Gr/pJYuOjsZkMmGz2XA6ncTExJCVlcVtt91GeXk5AB9++CH//ve/aW5u5p577iEnJ4fFixdz++23Y7FYuP/++3n++eeRJInc3FxWrVrF2rVrufnmm9mwYQM///wzV199NaWlpe7fwFk1msFg4I477mDHjh2sWLGCP//5z5w8eRJJknj//fd57733MBgM3HvvvRQUFLBw4UIefvhhtm7dyiOPPMKyZcsICgrizTff5MUXX0SSJFwuFwsXLuT//b//h9VqpaCggAcffJADBw7w3nvvyS+zO3h4eFBaWorRaCQ8PByXy4XBYGDu3LkUFBTw+eefc/PNN9PU1MSjjz7KkiVL2LZtGw8//DAvvfQSBoOBm2++me+++w6r1YokSbz88st88sknVFZW8uWXX1JcXMyUKVPIzMzE6XRy1113tXEGCNxH9fzzzz9/9saSkhI0Gg3h4eHU1dVx4sQJ4uLiKC8vR5IkjEYjgwcPprq6Wu5DpKens2vXLkaMGEFeXh6JiYkEBQVRUVHBxIkTKSwsJCEhgQEDBuDr60twcDBDhgyhsrISp9NJQkICTU1NDB06VLbD4XBw4sQJkpKSzjG8oaGBvLw8Ro8ejcFg4Ndff2Xs2LFs2rSJwMBAPvroI7Kzs0lPT8flcjF48GBcLhfp6ens27ePkSNHkpOTQ2JiImFhYbzzzjv069ePuLg4ioqKcDgcREZGMmbMGCoqKjCbzRQXF5ORkYFOp2PEiBFkZGRQU1NDWloa+/fvZ9y4ce0+5Orqasxmc5vob4VCwdNPP82oUaNISkpCkiTWrFnDFVdcQWVlJVFRUQwYMID169czYcIEtFotH374IVFRUSQkJFBQUMDo0aNZunQpN9xwAxaLhebmZvR6PTk5ORiNRjQaDYMHD6a8vJzy8nISExNRKBQMGTKkjX0nTpwgMjJSRCt3gN+sYTQaDT4+Phw4cICwsDBcLheJiYmo1WrsdjsA3t7eeHh4MGzYMK666ioUCgVJSUnY7XaKi4uJj48nOjqaoqIidDodGo2GhIQEQkNDqaysxNfXl5kzZzJgwICLvqFDhw6xY8cOxo0bx7x580hNTZWbOV5eXiiVSlJSUmShJyUl0dDQwMyZM5k+fTp+fn4AzJ49G41GIzf3AgICSE9P57rrruOKK64gLi6O1NRUkpOT3e6/QIvb3svLi/fff1+ek5KSksLEiRM5deoUAFdeeSUul4uhQ4fS0NDALbfcQnp6Ov7+/pSVlTFw4ED+/Oc/ExsbS2FhIf3792fUqFFMmDCBmJgYbDYb06dPZ8CAASQkJHDllVfKv5mgc/ymYFoFcurUKXx8fNBoNAQGBrJu3Tp5zMXpdOJwOPD29sbhcBAWFkZNTQ0ZGRmYzWacTichISHyzEmLxUJ8fDzbt2+nqqqKpqYmYmNju2S+yKBBg/j+++956aWX8PDwwOFwYDKZ5HtxOp3odDpMJhPh4eEYDAYOHjyIl5cXWq0Wi8WCUqnE29sbg8GAzWbDx8cHpVKJzWbDarXi7e2N2Wy+qLB4g8HAX/7yF/R6PVu2bMHLywtPT09UKhXV1dVYLBZ0Oh2JiYkcP36crKwsdDodOp2OhoYG1Go1CoVCnhXb6niQJEme3VlXV0dERARTp06Vf6fePM2gL/Cbv7bD4SAhIYEjR46g1+tRKpVs3bqVqVOntvG8tLph1Wo1+fn5HD16lDvuuAObzYbZbMbLywsfHx/5y5qRkUFcXByTJk2Sx3VaO7kXQ0FBAXV1dVRVVWG321EoFG065a3eL41Gw/Hjxzl16hQzZszAZDK16RC7XC4UCgV2u51+/frx448/smHDBgYNGtSpGqU9FAoF8+bN49NPP8VisaBQKJAkCQ8PD4xGI56enpw4cYLa2lpuuukm2UZJkkhOTuaJJ56QbVYqlVgsFrRarfxXVFSEwWCgqqpK3q+3zfjsa/zmSL/T6SQuLg6NRoOXlxcWiwWbzcawYcMoKCgAWjw+FRUVKJVKfHx8KC0tJTExEavVikaj4dixYwBERkbidDoxGo1kZ2czcuRIDAYD+fn5zJ49m8OHD3fqJjQaDVqtFmh5Ie644w7WrFlDUFAQGo1GdjE7HA5qamra2BkXF4dKpcJqteLp6SmfS6vVotFoUKlU2O12EhMTue2224iPj0ehUKDRaNDpdPIL3BnMZjOTJk2ioaGBAwcOEBAQgFKpJD4+noqKChobG7FYLAwdOhSr1YrNZpNrIS8vL9LS0pgzZw7QMtZSXl7OkSNH+O6779Dr9SgUCu688042b95MUFAQWq22XXe7oOOcN82Sp6cntbW1zJ8/nxdeeIGFCxeyd+9eXn31VZKTk6msrGTw4MEA6PV6XnnlFTw8PMjMzOSXX36htLSUuro6HnroIVavXs2IESO49tprUalU5Ofn43Q6eeKJJ0hMTCQhIYEXX3yRxYsXd+omvvrqK5YtW0Z6ejqzZ8/m5Zdfpl+/fmzfvp2IiAjq6+u5/fbb8fX15fXXX8fT05O4uDiOHDlCSUkJVquV3NxcysvLycrKoqioiLy8PL7//nsmT55MfHw8W7Zs4cCBA0RHR5OdnY2/vz+HDh0iMDCQa665xu0Xce3atSxfvpzx48dTWFjI3LlzGTBgAAMHDqSpqYm4uDieeeYZnnzySZ588kkkSaKgoIDc3FyOHDlCaGgoKpWKhoYGXnjhBZKTk3njjTcoKCggJSWFt956i7vvvptFixYxfPhwNmzYQGRkJFVVVdx5552des6CCwjG4XDg4+PDK6+8wtChQ4mKiiIkJIS3334bvV5Pc3OzPIA3efJkgoKCkCQJnU7Hn/70J7ltPXToUBITE/Hz80Oj0QDw0EMPoVAoKC4uJiwsjNDQUKZPny4L0F2mTJlCfHw8/v7+REZGcvjwYYKDg2UnQ2sNMG3aNOLj41EqlXIT0m63o1KpMBgMBAcHYzQaMZlMBAcHM336dOLi4vD19eXnn3+mvLycJ554gqeffhq1Ws3p06fx8vJCo9HI4x4d5YYbbiApKYmYmBg++ugjGhoa8PLykh0Ter2e8vJyUlNTWbRokdxM0+v1WCwWsrKymD9/PhqNhgcffJCwsDCeeuop7HY70dHR5OXlMWLECA4fPkx4eDhTp05Fq9V2W6zf5coFBePp6cn1118vb4uNjW13xNjHx4exY8ee9yJnd+b79+8PtIxAtzJmzJiOW01Lk7H1q56QkEBCQsI514uJiWlzTEBAwHldvxeioqKCr776ivDwcJqbm89xy7b2P9xh0KBBDBo0COC8I/yt9o8fP/6cMl9fX06ePElDQ4Ms/pSUFKBl0PPw4cNcddVV8rOIiIhwyz5B+/zmSH9vRaVScfLkSWpqai75tY4ePSqPbbTGkZ1dfr7o5kvFzp07aW5ulvtbZ2KxWERNconos/NhgoODyczM7HS0szuMGjWKTz75hPvvv7/dvsq7774rh9d0F1FRUTz44IN89tln+Pj4tCnz9/fnoYce6lZ7fi9cVG7lnsTLy0sO/rzU6PX6C4bXr1q1qlvsOJOZM2cyc+bM85b39hZCX6XP1jACQU/Qq/swZw869lV6+330Ztt6G+0KRpIkPD09u9uWc7hcBtrUavV5J6T1BlQqlQj77yDnza18xx13yIGIPYXT6aS2tpZVq1a5Pc5xMbTWCF3haVIqlTQ2NuJwOAgODu513iun04mnpydr167taVP6BO2uD2M0Gjl06FAvWO6iJQSluyNsbTYbu3bt4rrrruuS86lUKjlQsquaPw6Hgx07dsiBlZ3F6XSi1+tJTU3tErsud9qtYby9vZk8eXJ329KrsNls8ozS3orJZGLKlCk9bcbvCuEla4fWqcq9GYfD0ettvBwRghEI3EAIRiBwAyEYgcANhGAEAjcQghEI3EAIRtAttOZ3czgcbaIKli1bJmfJOZudO3fyyy+/tNn24osvUlxcfEltvRBCMIJuoaSkhPHjxzN+/HhuvPFGObVUU1MThYWF7R7z2muvtZlnZDAYCA8P79E80UIwgm4hIiKCa665htdee42hQ4fywQcfoFKpeOihh0hMTGz3mGuvvRYvLy/5/x4eHvzxj3/sVKbRrkIIRtAtqNVqoqOjiYuLY86cOeTk5KBQKMjLy2sTX2e32/n1118pLy9nyJAhVFdXy022oqIiTp8+TX19fY8FiwrBCLoNp9OJj48PJpMJHx8fmpqaWLhwobwYlc1m4/nnn2fBggWsXr0aPz8/NmzYwAsvvEBDQwOvv/46Tz75JB9//LGckL27EYIRdBtWq5VXX32V9957j1tvvZW9e/eydOlS6urq5MydW7ZsYc6cOQQGBpKfn8/IkSNJTU1lz5493HrrraSlpbF9+/ZOZxy9WIRgBN2Gy+WipKSE2tpajEajnPDRx8eHgoICfHx8mDt3LhMnTsThcKBUKpk4cSKhoaHk5uYSFhZGQkICYWFhPTZfq/fOahJcduh0OlauXMmxY8f46KOPiI+PR61WExoaKjexWhN6tOaIbp0OUVtbi9lsJjQ0tEcjtEUNI+g2JEmirKyMESNGoNPpqK+vx263o9FoZGE4nc42HXpJklAqlXJSeY1GI6/G0BMIwbTDmT+goOvw8PBAq9XicDjk1RLKyspQqVRyMkOVSoVKpZKzk7Ymj9fr9VRUVCBJEnq9vufuoatPmJWVhVKpxN/fv9dNx+0ICoUCs9ncJ23vzTgcDiorK6mqquI///kParWaMWPG8O2336LT6eRV2DIzMwkPDyczM1NegConJ4fBgwdz8OBBjEZjm0W3upsuF8yBAwf45z//KS9t0Rex2WzMnTu3p824rCgvL2fLli18++23qNVqvvjiC8LDw1myZAlz587Fz8+PpqYm9u/fj8FgIDs7m59//pnU1FRycnKYMGECJpOJbdu29Wgy9Xbn9F8MGzduZNiwYURERPTpZo1Go+kx12VHcDgcrF+/vs3y4r0ZSZKw2+24XC6USqWcmL6kpAS9Xi9/YM/MI9Ha8YeW5pzL5cLlcvVoJqEur2FaV+/qyfAFQe+jNaHJ2axdu5YpU6YwcuRIFArFBcXQ2r/pSS7JJ7Q7UyIJ+jajRo0iLCysp83oMGIcRtCj9LXsRL23kS4Q9EKEYAQCNxCCEQjcQPRhBJhMpjZLkwtavL1RUVHneO2EYASsX7+e11577Zyl/36vSJKE2Wxm1apV56yJKgQjwNfXl/Xr1xMdHS1CgmipXTIzMzGZTOeUCcEIUCqV6HS6Xr2GTXfj6enZ7qxO0ekXAGKw+WzOV9MKwQgEbiAEIxC4gRCMQOAGfUYwZ09dbQ9Jki7YFj+z3OVydftSgIK+T690i0iSRH5+vjz/QavV8vXXX/PXv/613RDx1mPeeecdxo8fz7Bhw84pd7lcvPXWW0ycOJFhw4aRm5vLjh07eOCBB2hqaqKmpgar1Yq/vz9RUVFUVFRgMpmIjY3FYrFQWVkph5eHhIRQV1cnrwCm0+mIiorC4XCQn5+PQqHA6XQSEhLC6dOn5etHRUXJSR4EfZNeKZiGhgbmz59PaWkpWq2W6OhoQkJCLuj2dDgcbNq0ibFjx7ZbbrPZ2LRpExMnTgRaMjG2rhJ9+PBh7r77biIiIrDZbHz77bd89NFHrFq1ikOHDvHTTz/xwgsv4O3tzU8//cThw4eZN28eCoWCwsJCZs6cydKlSykqKuLOO++koaEBLy8vxo0bR2ZmJqdPn0aj0fDEE09w++23d/0DE3QbvVIwJpOJt956i4yMDFJSUqioqCAnJ+eCMyDVajVpaWnnHa329PQkLS1NDnVISEggISEBgClTpnD33XfzzDPP8Mwzz/CPf/yDpUuX4nA4CAwMZOTIkbzxxhuo1WrS09MJDw9nwoQJzJ8/nw8//FCeMitJEp9++ik//PAD11xzDVu2bOGRRx5h3759jB49mtra2i5+UoLuplf2Yfz8/IiNjcXhcODj48P48ePx9vZm7dq1VFdXU15ezooVK7BarVRXV/P1119TWFhIdHQ0u3fvZs+ePfK5ioqKePfdd4GWhNg7d+5k7969AOTm5sr7KZVKbDYb8+bNIzc3F0mSCAgIwGq1otPpiI6OJiUlhaSkJD7++GMSEhKIiIjA5XLJ02hDQkLo16+f3LS75ZZb6NevH2azmfDwcFJSUrrxKQouBb2yhvH19QVamlkulwt/f39KSkrYvHmzPEX1yy+/JDg4mG+++QabzcYf/vAHIiIi2LRpE0ePHmXs2LGoVCq2bdvG2rVrMZvN6HQ6Nm7cSGlpKWVlZfz888+8/PLLQEs/RKPREBMTg6+vL42NjajVampqajCbzXLfafr06bz55pts2LABaKlVWp0R/v7+wP/voIiIiJDvQ6FQyOWCvkuvrGHaw263c//991NVVUVdXR0vvfQSZWVlOBwO5s+fj9PppKqqitmzZxMfH4/JZEKSJOrr63nppZfIy8vDaDRy2223ERsbi8FgkIV5/PhxPvjgA2bNmkVeXh4xMTFyeUFBAR4eHvKyC5MnTyYoKIgBAwb05OMQ9BB9RjDx8fHExcXJtcnmzZvRarXMmjWL2NhYFAoFXl5eDB8+vE32EQ8PD3Q6HZMnTyY6Oprhw4djMplITk4mKCgIgICAAPr378/kyZNlR4DVaiUuLo7CwkJMJpOcPC4oKAgPDw+ampp65kEIepQ+IxhA7tPU19eTl5dHcHAwLpdLbgK1unNbm0gKhQKdTseePXuor69HpVLJ4zA2m03+d3h4OBMnTmTBggWEhoZSX1+PWq0mPDyc3NxcrFar7KFrbm4mMDBQ7gcJfl/0asGcnddMoVBgsVg4cOAAs2fPRqlUykFyrYmrz8xlBRAZGcm//vUvbrjhBmw2W5sk12fuZzabMRgMOJ1OTp8+TUBAAOHh4VRXV1NfXy/vV1RUxLRp09i9e7e8rdVhUF5efl67BZcHvVowHh4eshtYpVKh1WoxmUzY7Xaio6OxWCwolUrUajUqlQq1Wo1arUapVMouaJVKxRtvvIGPjw8OhwO1Wo1CocDDw6ONm1qr1eLr68vu3bvRarX4+/vj6elJY2MjjY2NAPLKV9OmTaOurg4ALy8v9Ho9JpNJXqz0TLtb6cnkc4Kuo1d6yaCl6bNt2zaCgoIIDQ1l165daLVajh49Sr9+/Thx4gQGgwG73Y7T6WTHjh34+vrS1NTErl27SEtLw9/fnw8++IAvv/yS6dOn079/f4xGI3v27MFms5Gdnc38+fOpqqri4MGDfPvtt7z//vvMmjVLtmPQoEFyX+fvf/87Q4YMYfz48ezcuZMVK1aQnZ3Nxo0bOXXqFFOnTqW+vp4ffviB4cOHc9VVV1FbW8vXX3/N2LFjSU1N7anHKegiem0NU19fT1NTE8XFxTQ0NOB0Ojl16hTBwcH4+/tjtVoJDg7GbreTn5+PzWajpqaG4uJiPDw8MBgMAIwbN44bb7xRdhEXFBSg0+koKSmRF+XJz8/HaDSycuVKUlJSmDNnjmzHNddcI3vEWq/T1NTEoEGDyMjIoL6+nvfee499+/YxcOBAysvLsdls8rqMxcXFqNVq8vPzu/kJCi4FXZ5bedOmTaSmphIZGdmVp+0UFouF3Nxchg8fTkNDAwEBAT1tUpfRlbmVv/nmG0aOHNkrfrPeQnZ2No2NjXIoVSu9tobpCioqKvjxxx8BqKqqapPoWiDoDJe1YIKCgsjKymLWrFkcOXKkV2fjF/QNem2nvyvw8/Pj8ccfJzMzk6uuukoIRnDRXNaCARg2bFi782P6OkqlUozv9ADik9uHEYLpfi77GuZypK6ujo0bN3Lo0CGcTiczZszosXXrf28IwfRBDAYDf/3rX7FarWzatInp06f3tEm/G0STrA8SEREhrzA8fPhweepBZ1GpVHI0g6CF8y1t3qtqmB9++IHt27f/LrLIe3t789hjj+Ht7e32sVqtloSEBHJzcxk9evRF21JXV8fjjz8uEnScQU1NDXfdddc523tVDXPw4MHfTeqj48ePU1pa2unjk5KSAEhOTu4qkwQdoFfVMImJidx00009bUa38Msvv2Cz2Tp9fKtgEhMTL9qWoKAgli1bJpa7OIOSkhIKCwvP2d6rahiHw9FuxvTLkcbGxotyCyckJDBkyBBiY2Mv2han0ylPVxC0cOYcqDPpVYIRdJzIyEjS0tLQ6XQ9bcrvih4VzJlz7wXuERwczMyZM3vajN8dPSoYl8vFBx98IBJKdAKdTkdlZSWfffaZnLJWcOnp0U6/SqVi9erV5Obm8uqrr4rgSDf4z3/+w7fffovT6UShULSZ9Ca4dHT5G+ruIJi3tzevvfYae/bskVMcCc6lvr5ebr6aTCaOHDnCv/71L1avXk1lZSU1NTVunU908jtHl9cwdXV1PPvssx1++Vuz9N9zzz3ce++9XH311Z2+tsvlYu/evYwZM+a8Wf6zs7MZPHjwOS7Uw4cPk5yc/JvJKvLy8vD19SUsLKzTdnaGvXv3Ulpayrx58ygsLCQpKUke4Z80aRLHjx8nJCSkw+fbsGED4eHh3HjjjZfK5MuSLhdMZWUlr7zyitvHHT9+nOzsbLcWJl2zZg1bt27Fbrfz2GOPMXLkSNavX09ycnK7gikqKuKFF17gk08+AWD16tVceeWV+Pn58eKLL7J27Vr5Hn744YdzMu1LksTixYt5+OGHZcEUFBRw4MCBTjWJ3HErWywWnnnmGSZMmIDVaiUqKkoui4qK4qeffnLr2mVlZbz88suMHTv2okNrfk90uWBuueUWOSt+R1i8eDG//PILd955J9dffz02m+28tcPZ6HQ6rFYro0aN4qmnnmLjxo3MmzfvvOEmvr6+xMbGyrnMYmJisNvteHt7069fPzkkp76+nu3bt5Oent6mplQoFMTHx7cRdVlZWaeX6u7ofUJLds7a2loeffRR7rvvPiZNmiSXeXt7u22DXq/n1KlTPPfcc0yfPl3OWd1dNDQ0sG7dOu6+++5zPhxHjx6lubn5vEuX9CRdLpj4+Hji4+M7vP+KFStITExk+fLl7Nu3D4fD0eEXadSoURiNRm6//XaOHTvGvn37LtikCwwMZODAgbIwkpOTUSgU+Pn50b9/f/mH8/Pz44EHHsBgMJzTtExOTm7jnIiNje1U+iSHw8GMGTM6PI7Smhtt27Zt2Gw20tPT5TKdTsfevXtZvHhxh69fXV0NwKpVqygrK+PTTz91w/rfJj8/n7/85S+ykP/nf/6nTRRHdXU1HiW3IboAAAtoSURBVB4e7day//znPxk3btzvQzDuEhsby7PPPoter8doNLrVTHE6nVitVgCmTp3KiRMnmDhxIiqViurqagIDA+U+SU1Njfzy19bWEhERgbe3Nx4eHnK62YqKCnmVsNDQUAIDA+VrGQwGlEolkiRhMBgwGo14e3vLq5I5nU63vtKSJHHixIkO3++ZAakGg6FNLadUKmlubiY7O7vD1299kV0u10VHHbSH2WzmkUce4dChQwwePPic8TY/P782oj+TK6+8Uk4U39vo8XGYZ599ttMd/erqak6dOkV+fj4xMTEUFBSwevVqjh8/zrXXXsvmzZsBMBqN3HzzzXz66ad4e3szb948tm7dyueff051dTVKpRKTycQtt9xCRkYGeXl5pKeny6lfP/30UxYsWMAbb7xBUFAQy5cvZ8WKFTQ2NjJ79myWL19OVlaWW7ar1Wp27dpFdXV1h/7WrFkDtORZW7BggbwUILS8nJMnT+7wuaqrq1m0aBEAt912GwsWLOjysbCQkBBmzJhBfHw8N954IxMnTqSmpoaTJ08CLR+AiooKoOX3yc/Pl3NdJyQktMkkeuLECcrKyoCWj11JSQnQkvOtqqqqS+3+LXq0hlEqlfTv37/Txx84cIC1a9ciSRJ33nknOTk5OBwOdDodjz/+uPwwMzIyuPfee6mvr6egoIApU6ZQWFjITz/9xNSpUwEoLS3l7rvvZu/evaSmpvLcc8/x9ddf89hjj7Fhwwbi4uIIDw/nl19+YeDAgYSEhPD999+zZMkSli9f3qlmWVBQ0HnnXZxNa/raf//73zgcDmprawkODgZasoTqdLoOn6uV8PBwVq5cSVZWVpdHXISGhgItYvDw8CAoKIhFixaxdetWNm3axKpVq9i8eTOvv/4669evJzs7m1dffZXU1FTUajVbtmxh06ZNvPnmmyxYsICYmBhmzpzJunXrMBqNvP322yxatAir1cpTTz0lB6Neavr0SOG0adNYuHAhS5YsoampiaSkJFJTU4mNjUWn08lfzcbGRiZMmEBKSgrx8fFcc801eHl58cc//lGeTpCYmMhtt93G6dOnOXnyJBMmTJDHKm655RamTZuGp6cnCoWCGTNmoFAoqKysZOzYsfj4+HQqSaA7Uxk8PT35xz/+wfDhw/H09JT7INDi1XN3DCs6Opq3336boKAgTCaTW8e6i4eHB9XV1QwbNoy5c+fywQcfMHDgQJ5//nnWrFlDZmYmt956K8eOHQNampyhoaFcf/31fPHFF9xzzz2MGzeODz/8EG9vb66++mq++uorpk2bxoABA/jss88uqf1n0qcFI0mS3BZvbm5Gr9fjcDgYNGgQP/74oxz53NDQAMDVV1+Nj48PCoUCo9HYpl/gcrlQq9W4XC6amprw8fGR3a1KpRKNRiOvRObp6UldXZ3cTBgzZoxbnsHOMGHCBObNmwe0vOytqWihZR6Ruws8/dd//Zc8tflST9hTq9UUFhYSEBBAcnIyFRUVpKamsm/fPsaMGcNdd91FUlJSm1ouLS0NHx8f2VFz+PBhbr75ZtLT0+nXrx91dXXodDrGjx/frVNC+rxgWn/snJwcQkND8fT0ZOvWrQwfPpyBAwcCLYOpNTU12O12jEYjwDlLXrQuWdFa5nK55CZO63Va95UkSXYWOBwOHA7HJZ/4dqar3N/fH71ezxNPPMHf/vY3XC4X0dHRnT7fpUatVlNXVyd/1KKjo7Hb7ezduxdvb28CAwOx2+1tfgsPDw9MJhOpqan8+uuv5Ofn4+npiVarxWKxEB4ejs1mo7S0tFtjEfu0YNRqNT4+PrhcLr744gvGjx+P2WymoqKCIUOGyJ3K2NhYHn/8cV5//XX0ej0ajQatVovNZpO/agaDgZMnT5KYmIjT6eT48eNyH6F1+Qq1Wo1Go0GtVhMYGIhCoWD//v2dbpJdDNdffz3BwcF4enr2+kl3kiThdDoxGo14eXnR1NTETz/9xKxZs2QPZXvHeHp6cujQISoqKpgxYwYmk0n+SA0ZMoRt27bxxRdfdGveuR53K18MX375Je+++y5vv/02aWlpBAYGsmrVKsaMGcO6deuIjIzk0UcfJS0tjbvuuotBgwaxfft2Dh8+TEZGBs3NzTz33HP079+fsLAwHnroITZt2sSWLVu47777+Pzzz+XrBAQEkJOTQ3l5OceOHSMjI4O77rqL++67j5deesmtQciuwNvbmyeffLJbr9kZVCoVkiTh7+9Pfn6+3BzW6/UEBARQWVkpu+dbx7dakxTqdDoOHz7MddddR3Fxsbzuj0qlwmAwcMMNNxAUFCR/2LqDPi2YmTNncuWVV2K327nqqqsAWLZsGZGRkVRVVclffb1eT1ZWFgEBAZSVleHl5cWtt96K0+mUvXRz5swhOTmZwMBA0tPTiYmJkfslTz31FEqlErPZjMViQa/XM2fOHAYPHsyIESMuy8yaXYHD4aCoqIi6ujqSkpL4/PPPOXToEAMGDJCXHmlsbMTf35+EhAS5T1hdXY3L5aKmpgaLxUJRURGZmZn4+vqiUCjkpVDWrFlDc3Mzixcvlr2dl5o+LZgBAwac09nNyMjgnnvukdMQtTJkyBAAeSnws/Hz85NHlpVKJSdOnJDDTy6UaKJVqIJz2b9/Pxs3bmTYsGH893//N1qtlpUrV/LNN9/IUQAlJSWo1WqCg4Plgd89e/Zw6tQpLBYLI0eO5JtvvgHgyJEjjBgxgurqaiZNmkR9fT3Hjx9n9+7dQjCdRavVXrTXx+l0ipmgXcCYMWM4ePCgHBm+ZMkSzGYzOp2O//u//5OdK620NsmWLFmCw+FAoVCg0WiorKxEp9Oh1WpRqVS4XC4aGhqYNWsWcXFxFBQUdNs9XXaCefjhhy/6HH5+fsyfP78LrPl9o9Fo2vTttFqtLJ4Lhb6c7cFbv349CQkJbUJpMjIyCAgIwNvbu1vDaC47wQguP4YMGXLO/KPWMTKz2dytueyEYAS9nrS0tHO2nRl/eKkHjc+k143D/F6WcOht99nb7Olpzvc8ep1gunsiU0/ROlWgN6BQKNya6fp74HzPo1c9pV9//ZXly5df9ilLXS4XVqu1yydtdZbKykqmT5/eJR7GywGFQkFzczPLli07t6yrlx2/GMrLy+U5EJczkiSh1WpJSUnpFV/2L774Ao1GQ2hoaKenW19OtI7DxcfHt5kKDr2shomMjBRrxfcAOp2OCRMmdHs8XG8mKCio3clpva4PI+h+JEm65HNi+hrnS4ovBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIUCgUeHp69rQZvYrzpSvuVZkvBT2DzWYjMzOT8PBwkSqWllSxx44dIyQk5JwyIRgBdXV1/P3vf+/2laB7MyaTiRUrVpyzXQhGQEREBN988815F8z9PXLkyBEaGhrO2S76MAIkSRILKnUQIRgBgOi7nMX5nocQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjEDgBkIwAoEbCMEIBG4gBCMQuIEQjAClUklQUFBPm9Gr0Ov17W4XuZUFVFVV8cADD+Dv79/TpvQKJEmioqKC++6775wyIRgBY8aMoby8vKfN6DVIkkRwcDCJiYnnlCkkSZJ6wCaBoE8i+jACgRsIwQgEbiAEIxC4gRCMQOAGQjACgRv8f4wy37BbF/j8AAAAAElFTkSuQmCC",
-    "options": {
-      "1": "Định vị gián tiếp",
-      "2": "Định vị gián tiếp thanh ghi",
-      "3": "Định vị cơ sở",
-      "4": "Định vị trực tiếp"
-    },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Hình vẽ sau là ký hiệu của thành phần nào trong kiến trúc của ALU?",
@@ -1389,7 +1341,7 @@
       "3": "Bộ dồn kênh",
       "4": "Bộ cộng đủ 1 bit"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Hình vẽ sau là ký hiệu của thành phần nào trong kiến trúc của ALU?",
@@ -1400,7 +1352,7 @@
       "3": "Bộ cộng đủ n bit",
       "4": "Bộ dồn kênh"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Hình vẽ sau là ký hiệu của thành phần nào trong kiến trúc của ALU?",
@@ -1411,7 +1363,7 @@
       "3": "Bộ cộng đủ n bit",
       "4": "Bộ dồn kênh"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Khi có yêu cầu ngắt từ các thiết bị vào ra, các tín hiệu yêu cầu ngắt IRQ sẽ được gửi đến thanh ghi nào đầu tiên?",
@@ -1422,7 +1374,7 @@
       "3": "ISR",
       "4": "PR"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Khi đơn vị xử lý trung tâm thực hiện các lệnh tạo vòng lặp, thanh ghi nào trong các thanh ghi sau đây đóng vai trò chứa số đếm xác định số lần thực hiện vòng lặp:",
@@ -1444,7 +1396,7 @@
       "3": "Lấy địa chỉ chương trình con tại đáy ngăn xếp lưu và lưu vào PC",
       "4": "Quay trở về chương trình chính."
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Khi kết thúc một chương trình còn phục vụ ngắt cứng, CPU sẽ phát ra tín hiệu nào?",
@@ -1455,7 +1407,7 @@
       "3": "EOI",
       "4": "IRET"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Khi thiết kế một đơn vị điều khiển, tập các tín hiệu điều khiển cần thiết và trình tự đưa ra các tín hiệu điều khiển được xác định trên cơ sở:",
@@ -1639,7 +1591,7 @@
       "3": "Là kỹ thuật cho phép CPU tính toán với các số dấu chấm động",
       "4": "Là kỹ thuật cho phép CPU xử lý theo kỹ thuật IPL"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Máy tính có thể biểu diễn, xử lý và lưu trữ:",
@@ -1661,7 +1613,7 @@
       "3": "Modem",
       "4": "Ổ đĩa cứng HDD"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Một chỉ thị máy có khuôn dang bao gồm các thành phần nào?",
@@ -1672,7 +1624,7 @@
       "3": "Mã thao tác và địa chỉ chương trình",
       "4": "Mã thao tác và dữ liệu"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Một đơn vị xử lý Trung tâm bao gồm các nhóm tập lệnh cơ bản nào?",
@@ -1684,7 +1636,7 @@
       "4": "Nhóm lệnh xử lý dữ liệu",
       "5": "Tất cả các phương án"
     },
-    "correctAnswer": null
+    "correctAnswer": 5
   },
   {
     "question": "Một đơn vị xử lý Trung tâm bao gồm các nhóm tập lệnh cơ bản nào?",
@@ -1695,7 +1647,7 @@
       "3": "Nhóm lệnh xử lý dữ liệu",
       "4": "Tất cả các phương án"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Một khuôn dạng lệnh cơ bản gồm các thành phần nào?",
@@ -1706,17 +1658,7 @@
       "3": "Mã lệnh, địa chỉ ô nhớ chứa lệnh",
       "4": "Mã lệnh, địa chỉ toán hạng, địa chỉ toán hạng"
     },
-    "correctAnswer": null
-  },
-  {
-    "question": "Một khuôn dạng lệnh cơ bản gồm các thành phần nào?",
-    "image": null,
-    "options": {
-      "1": "Mã lệnh, địa chỉ ô nhớ chứa lệnh",
-      "2": "Mã lệnh, địa chỉ chương trình thực hiện",
-      "3": "Mã lệnh, địa chỉ toán hạng, địa chỉ toán hạng"
-    },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Một lệnh máy của máy tính hiện đại thường có hai trường thông tin: trường mã thao tác và trường địa chỉ. Khi đó, trường địa chỉ chứa (các) con số mang thông tin về:",
@@ -1727,7 +1669,7 @@
       "3": "Địa chỉ ô nhớ chứa lệnh máy này",
       "4": "Địa chỉ nơi chứa toán hạng mà lệnh xử lý hoặc địa chỉ ô nhớ chứa lệnh máy cần thực hiện tiếp theo"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Một ô nhớ có kích thước quy định là bao nhiêu?",
@@ -1738,7 +1680,7 @@
       "3": "2 bytes",
       "4": "4 bytes"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Một toán hạng không thể lưu trữ được trong thành phần nào sau đây?",
@@ -1749,7 +1691,7 @@
       "3": "Trong lệnh",
       "4": "Trong thanh ghi"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Mục tiêu thiết kế các bộ VLX trung tâm sử dụng hệ lệnh CISC là gì?",
@@ -1760,7 +1702,7 @@
       "3": "Tất cả các phương án",
       "4": "Tận dụng hiệu năng làm việc của CPU"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Nếu con trỏ lệnh PC hiện đang chứa giá trị 10010000 (Binary), vậy địa chỉ của ô nhớ chứa lệnh cần nhập tiếp theo sẽ là:",
@@ -1782,7 +1724,7 @@
       "3": "Chu kỳ nhập lệnhChu kỳ gián tiếpChu kỳ thực hiện lệnhChu kỳ ngắt",
       "4": "Chu kỳ nhập lệnhChu kỳ giải mã lệnhChu kỳ thực hiện lệnhChu kỳ hủy lệnh"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Nhược điểm của cache ánh xạ liên kết là gì ?",
@@ -1815,7 +1757,7 @@
       "3": "Chương trình quét ROM mở rộng",
       "4": "Phần mềm thời gian đồng hồ hệ thống"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Phương pháp truyền tin phổ biến trên Bus là gì?",
@@ -1826,7 +1768,7 @@
       "3": "Đồng bộ và dị bộ.",
       "4": "Đồng bộ và Song song"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Quá trình thực hiện một lệnh máy được điều khiển và điều phối bởi:",
@@ -1870,7 +1812,7 @@
       "3": "256",
       "4": "64"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Số lượng phân vùng chính đối với các máy vi tính PC là bao nhiêu",
@@ -1881,7 +1823,7 @@
       "3": "8",
       "4": "Không giới hạn"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Sự khác biệt trong các thao tác đơn vị xử lý trung tâm khi thực hiện lệnh gọi xa ( FAR CALL) so với gọi gần (NEAR CALL) đến một chương trình con đích có mức đặc quyền thấp hơn là:",
@@ -1914,7 +1856,7 @@
       "3": "CS",
       "4": "FS"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Thành phần cốt lõi của một đơn vị điều khiển cứng hoá là:",
@@ -1936,7 +1878,7 @@
       "3": "CU",
       "4": "Registers"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Thành phần nào trong CPU điều khiển quá trình đọc / ghi dữ liệu với bộ nhớ",
@@ -1947,7 +1889,7 @@
       "3": "IR",
       "4": "PC"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Thao tác đầu tiên để đơn vị xử lý trung tâm chuyển đến nhiệm vụ tiếp theo là:",
@@ -1980,7 +1922,7 @@
       "3": "Tăng tốc độ truy nhập Bus",
       "4": "Tránh xung đột Bus"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Thiết bị giao diện bàn phím sẽ chịu trách nhiệm tạo ra tín hiệu gì của bàn phím để gửi cho CPU?",
@@ -1991,7 +1933,7 @@
       "3": "Mã Unicode",
       "4": "Mã vạch"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Thông tin nào sau đây không tồn tại trong cấu trúc bảng phân vùng",
@@ -2002,7 +1944,7 @@
       "3": "Địa chỉ đầu phân vùng",
       "4": "Số lượng thư mục, file có trong phân vùng"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Thực tiễn hoạt động nào của đơn vị xử lý trung tâm trong khi thực hiện truy cập bộ nhớ chính đã cho phép sử dụng bộ nhớ cache :",
@@ -2046,7 +1988,7 @@
       "3": "tăng kích thước bộ nhớ chính mà giá thành xây dựng bộ nhớ tăng không đáng kể",
       "4": "tăng tốc độ truy cập bộ nhớ chính nhưng với giá thành xây dựng bộ nhớ tăng không đáng kể"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong các chỉ thị lệnh sau, chỉ thị nào không làm thay đổi giá trị của PC?",
@@ -2057,7 +1999,7 @@
       "3": "JS",
       "4": "JZ"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Trong các chỉ thị lệnh sau, chỉ thị nào sẽ thay đổi giá trị của MBR?",
@@ -2068,7 +2010,7 @@
       "3": "STORE",
       "4": "Tất cả đều sai"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong các thành phần sau, thành phần nào không phải là chuẩn giao diện giữa HDD với CPU",
@@ -2079,7 +2021,7 @@
       "3": "ATA",
       "4": "PATA"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Trong các thiết bị giao diện sau, thiết bị giao diện nào có thể làm việc với nhiều thiết bị ngoại vi nhất",
@@ -2090,7 +2032,7 @@
       "3": "UART",
       "4": "USB"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong các thiết bị giao diện sau, thiết bị giao diện nào thực hiện vào ra tuần tự với thiết bị ngoại vi?",
@@ -2101,7 +2043,7 @@
       "3": "UART",
       "4": "USB"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Trong các tín hiệu sau, tín hiệu nào là tín hiệu báo ngắt",
@@ -2112,7 +2054,7 @@
       "3": "DRQ",
       "4": "IRQ"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong các tín hiệu sau. Đâu là những tín hiệu được sử dụng trong quá trình DMA",
@@ -2123,7 +2065,7 @@
       "3": "HOLD, DRQ, HDLA",
       "4": "INTA, HOLD, DRQ"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong các tín hiệu yêu cầu ngắt cứng sau. Hãy sắp xếp các tín hiệu theo chiều giảm dần của độ ưu tiên:Đồng hồ thời gian thựcCard âm thanhBàn phímĐồng hồ hệ thống",
@@ -2134,7 +2076,7 @@
       "3": "4, 3, 1, 2",
       "4": "4, 3, 2, 1"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong chế độ bảo vệ CPU x86 có quản lý theo cách nào?",
@@ -2145,7 +2087,7 @@
       "3": "Theo phân đoạn và theo phân trang",
       "4": "Theo phân trang"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Trong chế độ bảo vệ, bộ nhớ được quản lý theo phân đoạn. Có những bảng phân đoạn nào?",
@@ -2156,7 +2098,7 @@
       "3": "LDT và BTD",
       "4": "LDT và GDT"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong chế độ bảo vệ, CPU có thể thực hiện đa nhiệm bằng cách bảo vệ các chương trình đang hoạt động. Để làm được điều này CPU sẽ thực hiện công việc gì?",
@@ -2167,7 +2109,7 @@
       "3": "Gán cho mỗi chương trình 1 vùng nhớ mở rộng và độc lập với các chương trình khác",
       "4": "Gán cho mỗi chương trình một mức đặc quyền cho phép/hoặc không cho phép truy cập"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong chế độ hoạt động DMA, khi có nhiều hơn 1 thiết bị gửi tín hiệu yêu cầu DRQ tới CPU. Khi đó các thiết bị sẽ được phục vụ theo cơ chế nào?",
@@ -2178,7 +2120,7 @@
       "3": "Theo thứ tự của các Q, tín hiệu đến sau sẽ được phục vụ trước theo Stack dạng LIFO",
       "4": "Theo thứ tự đến của các DRQ, tín hiệu đến trước được phục vụ trước theo hàng đợi FIFO"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong chế độ quản lý bộ nhớ theo chế độ phân trang. Cấu trúc của hệ thống quản lý bảng tran gồm những thành phần nào?",
@@ -2189,18 +2131,7 @@
       "3": "Thưc mục trang, bảng trang, khung trang",
       "4": "Thưc mục trang, bảng vector trang, trang nhớ"
     },
-    "correctAnswer": null
-  },
-  {
-    "question": "Trong chế độ quản lý bộ nhớ theo chế độ phân trang. Cấu trúc của hệ thống quản lý bảng tran gồm những thành phần nào?",
-    "image": null,
-    "options": {
-      "1": "Thư mục trang, bảng trang vectoc và khung trang",
-      "2": "Thư mục trang. Thưc mục trang con, bảng trang",
-      "3": "Thưc mục trang, bảng trang, khung trang",
-      "4": "Thưc mục trang, bảng vector trang, trang nhớ"
-    },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Trong chế độ quản lý bộ nhớ theo phân trang mỗi bảng trang có kích thước 4 Kb và có thể quản lý được",
@@ -2211,7 +2142,7 @@
       "3": "256 mục bảng trang",
       "4": "512 mục bảng trang"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Trong chế độ thực bộ nhớ được phân chia thành các đoạn nhớ, mỗi đoạn nhớ có kích thước là bao nhiêu?",
@@ -2222,7 +2153,7 @@
       "3": "32Kb",
       "4": "64Kb"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong chế độ thực và chế độ 8086 ảo, các thanh ghi đoạn CS, DS, ES và SS được dùng để chứa:",
@@ -2244,7 +2175,7 @@
       "3": "NRZ",
       "4": "NRZI"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong cơ chế quản lý bộ nhớ theo phân đoạn, bảng đoạn được sử dụng để:",
@@ -2309,7 +2240,7 @@
       "3": "Địa chỉ trang, là con số xác định vị trí trang trong bộ nhớ ảo và bộ nhớ vật lý",
       "4": "Địa chỉ logic, là cặp con số địa chỉ trang-địa chỉ offset xác định vị trí ô nhớ trong bộ nhớ ảo và bộ nhớ vật lý"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong cơ chế quản lý bộ nhớ theo phân trang, địa chỉ offset (địa chỉ lệch) là con số:",
@@ -2320,7 +2251,7 @@
       "3": "xác định vị trí ô nhớ trong bộ nhớ vật lý",
       "4": "xác định vị trí ô nhớ trong trang và khung trang chứa nó"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong đơn vị điều khiển vi lập trình, các tín hiệu điều khiển cần có được biểu diễn và được hoạt hoá bởi:",
@@ -2331,7 +2262,7 @@
       "3": "Các bit trong lệnh máy",
       "4": "Các mã lệnh máy"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong đơn vị điều khiển vi lập trình, con trỏ vi lệnh PC đóng vai trò :",
@@ -2408,7 +2339,7 @@
       "3": "Ghé nối trực tiếp với CPU",
       "4": "Ghép nối với Bus hệ thống"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Trong hệ thống máy vi tính PC, các thiết bị đĩa từ làm việc với CPU qua các kênh DMA. Vậy số lượng ổ đĩa từ vật lý tối đa cho phép trong một máy vi tính PC là bao nhiêu",
@@ -2419,7 +2350,7 @@
       "3": "4",
       "4": "Không hạn chế"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong hệ thống ngắt cứng, độ ưu tiên của ngắt được thể hiện bằng số ngắt. Ngắt có độ ưu tiên cao là  ngắt như thế nào?",
@@ -2430,7 +2361,7 @@
       "3": "Có số ngắt nhỏ nhất trong số các tín hiệu ngắt",
       "4": "Có số ngắt lớn nhất hoặc nhỏ nhất tùy thuộc vào lập trình viên khai báo trong từ khởi động"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Trong kiến trúc các máy PC hiện đại, những mạch chức năng được tích hợp vào Chipset. Hãy cho biết có những loại chipset nào sau đây?",
@@ -2441,7 +2372,7 @@
       "3": "Chipset tổng hợp",
       "4": "Chipset cầu Bắc, chipset cầu Trung"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong máy tính, hệ đếm nào được sử dụng để biểu diễn thông tin ?",
@@ -2475,7 +2406,7 @@
       "3": "Lưu giá trị các tham số, biến toàn cục của chương trình con",
       "4": "Tất cả các phương án"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Trong những kiểu truyền sau, kiểu truyền nào không thuộc kiểu truyển của DMAC",
@@ -2486,7 +2417,7 @@
       "3": "Truyền theo khối",
       "4": "Truyền theo yêu cầu"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Trong quản lý tệp tin bằng hệ thống NFTS, cung khởi động phân vùng được ký hiệu bằng ký tự nào?",
@@ -2518,7 +2449,7 @@
       "3": "Kbs",
       "4": "Mbs"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Trong ví dụ thiết kế một đơn vị điều khiển vi lập trình ( Mục 2.3.4, KTMT Elearning ),  một số vi lệnh (Bảng 2-5) có chứa bit điều khiển hoạt hoá vi thao tác PC  0.  Sau khi vi lệnh có dạng nói trên được thực hiện thì vi thủ tục nào sẽ là vi thủ tục tiếp theo được thực hiện :",
@@ -2540,7 +2471,7 @@
       "3": "Xác định vị trí thủ tục (chương trình con) lệnh máy tiếp theo cần thực hiện",
       "4": "Xác định vị trí vi lệnh tiếp theo cần thực hiện"
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "question": "Trong ví dụ thiết kế một đơn vị điều khiển vi lập trình (Mục 2.3.4, KTMT Elearning), việc giải mã lệnh máy được thực hiện:",
@@ -2551,7 +2482,7 @@
       "3": "bằng mạch giải mã điện tử (Bộ giải mã)",
       "4": "thông qua thực thi hai vi lệnh để hoạt hoá các tín hiệu điều khiển hai vi thao tác sau:"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Trong ví dụ thiết kế một đơn vị điều khiển vi lập trình (Mục 2.3.4, KTMT Elearning), xét dòng vi lệnh số 4 (Bảng 2-5). Giả sử trường địa chỉ C0...C6 của vi lệnh này được chọn có giá trị 101010(Binary), khi đó vi thủ tục tiểu chu kỳ Thực hiện lệnh ADD sẽ phải được đặt ở vị trí:",
@@ -2584,7 +2515,7 @@
       "3": "Mỗi dòng cache tương ứng với nhiều khối nhớ của bộ nhớ chính",
       "4": "Số lượng dòng cache lớn theo kích thước của bộ nhớ chính"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Vị trí của Module giao diện đĩa từ được đặt ở đâu trong hệ thống máy vi tính?",
@@ -2595,7 +2526,7 @@
       "3": "Trong RAM",
       "4": "Trong ROM"
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "question": "Việc quản lý bộ nhớ tác động đến thiết bị nhớ vật lý nào trong hệ thống bộ nhớ vật lý nhiều mức :",
@@ -2628,7 +2559,7 @@
       "3": "Truyền theo dạng bán song công",
       "4": "Truyền theo khối"
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "question": "Vùng đệm bàn phím có kích thước cố định là bao nhiêu bytes?",
@@ -2639,7 +2570,7 @@
       "3": "32",
       "4": "64"
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit.  Khi  thực  hiện  lệnh  rẽ nhánh (nhẩy) không điều  kiện JMP xxxxx, con trỏ lệnh PC được nạp địa chỉ xxxxx. Giả sử ô nhớ chứa lệnh  JMP 11010  có địa chỉ là 10011. Vậy địa chỉ ô nhớ chứa lệnh cần thực hiện tiếp sau lệnh JMP 11010  sẽ là:",
