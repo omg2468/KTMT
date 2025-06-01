@@ -66,6 +66,14 @@
     </style>
   </head>
   <body>
+    <div id="search-bar-container" style="margin-bottom: 15px">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Tìm câu hỏi..."
+        style="width: 100%; padding: 8px; font-size: 16px"
+      />
+    </div>
     <div id="index-bar"></div>
     <hr />
     <div id="quiz-container"></div>
@@ -133,6 +141,20 @@
       function scrollToTop() {
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
+      const searchInput = document.getElementById("searchInput");
+      searchInput.addEventListener("input", function () {
+        const filter = this.value.toLowerCase();
+        const questions = document.querySelectorAll(".question");
+
+        questions.forEach((q) => {
+          const text = q.querySelector("p").textContent.toLowerCase();
+          if (text.includes(filter)) {
+            q.style.display = "";
+          } else {
+            q.style.display = "none";
+          }
+        });
+      });
     </script>
   </body>
 </html>
