@@ -7,6 +7,7 @@
       body {
         font-family: sans-serif;
         padding: 20px;
+        padding-top: 50px;
       }
       .question {
         margin-bottom: 20px;
@@ -42,12 +43,27 @@
       #index-bar a:hover {
         background: #ddd;
       }
+      #toolbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
     </style>
   </head>
   <body>
     <div id="index-bar"></div>
     <hr />
     <div id="quiz-container"></div>
+    <div id="toolbar" onclick="scrollToTop()">⬆ Về đầu trang</div>
 
     <script>
       fetch("questions.json")
@@ -108,6 +124,9 @@
           });
         })
         .catch((error) => console.error("Lỗi khi tải dữ liệu:", error));
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
     </script>
   </body>
 </html>
