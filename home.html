@@ -7,7 +7,6 @@
       body {
         font-family: sans-serif;
         padding: 20px;
-        padding-top: 50px;
       }
       .question {
         margin-bottom: 20px;
@@ -43,19 +42,26 @@
       #index-bar a:hover {
         background: #ddd;
       }
-      #toolbar {
+      #scrollTopBtn {
         position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
+        bottom: 20px; /* cách đáy màn hình 20px */
+        right: 20px; /* cách mép phải 20px */
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
         background-color: #333;
         color: white;
-        text-align: center;
-        padding: 10px;
-        font-weight: bold;
+        font-size: 24px;
         cursor: pointer;
-        z-index: 1000;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+      }
+
+      #scrollTopBtn:hover {
+        opacity: 1;
       }
     </style>
   </head>
@@ -63,7 +69,7 @@
     <div id="index-bar"></div>
     <hr />
     <div id="quiz-container"></div>
-    <div id="toolbar" onclick="scrollToTop()">⬆ Về đầu trang</div>
+    <button id="scrollTopBtn" onclick="scrollToTop()">⬆</button>
 
     <script>
       fetch("questions.json")
