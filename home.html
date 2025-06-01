@@ -20,9 +20,33 @@
         height: auto;
         margin-top: 10px;
       }
+      #index-bar {
+        display: flex;
+        flex-wrap: wrap; /* Cho phép xuống dòng */
+        gap: 10px;
+        max-width: 600px; /* Giới hạn chiều rộng */
+        margin-bottom: 10px;
+      }
+
+      #index-bar a {
+        display: inline-block;
+        padding: 4px 8px;
+        background: #eee;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        transition: background 0.2s;
+      }
+
+      #index-bar a:hover {
+        background: #ddd;
+      }
     </style>
   </head>
   <body>
+    <div id="index-bar"></div>
+    <hr />
     <div id="quiz-container"></div>
 
     <script>
@@ -30,11 +54,31 @@
         .then((response) => response.json())
         .then((data) => {
           const container = document.getElementById("quiz-container");
+          const indexBar = document.getElementById("index-bar");
+          const seenStarts = new Set();
+
           data.forEach((q, index) => {
             const div = document.createElement("div");
             div.className = "question";
 
-            // Thêm hình ảnh nếu có
+            // Gán id duy nhất theo từ đầu tiên
+            const firstWord = q.question.trim().split(" ")[0];
+            const anchor = firstWord.toLowerCase();
+
+            if (!seenStarts.has(anchor)) {
+              // Tạo link trên thanh đầu trang
+              const link = document.createElement("a");
+              link.href = `#${anchor}`;
+              link.textContent = firstWord;
+              link.style.marginRight = "10px";
+              indexBar.appendChild(link);
+              seenStarts.add(anchor);
+            }
+
+            // Thêm id vào câu hỏi để có thể cuộn đến
+            div.id = anchor;
+
+            // (Phần cũ) thêm ảnh nếu có
             if (q.image) {
               const img = document.createElement("img");
               img.src = q.image;
@@ -45,10 +89,9 @@
             // Thêm câu hỏi
             const p = document.createElement("p");
             p.innerHTML = `<strong>Câu ${index + 1}:</strong> ${q.question}`;
-
             div.appendChild(p);
 
-            // Thêm các lựa chọn
+            // Thêm lựa chọn
             const ul = document.createElement("ul");
             for (const key in q.options) {
               const li = document.createElement("li");
