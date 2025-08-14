@@ -1,5 +1,6 @@
 [
   {
+    "index": 1,
     "question": "Môi trường truyền tin thông thuờng trong mạng máy tính là?",
     "question_images": [],
     "options": {
@@ -23,6 +24,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 2,
     "question": "Các điểm đồng bộ chính đóng vai trò gì ?",
     "question_images": [],
     "options": {
@@ -46,6 +48,7 @@
     "correctAnswer": null
   },
   {
+    "index": 3,
     "question": "Các giao thức ở tầng 2 có được chia thành mấy nhóm",
     "question_images": [],
     "options": {
@@ -69,6 +72,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 4,
     "question": "Các loại dịch vụ cho tầng trình diễn được chia làm mấy loại",
     "question_images": [],
     "options": {
@@ -92,6 +96,7 @@
     "correctAnswer": null
   },
   {
+    "index": 5,
     "question": "Các quy tắc đồng thuận về giao tiếp phải được tiến hành trong giai đoạn nào?",
     "question_images": [],
     "options": {
@@ -115,6 +120,7 @@
     "correctAnswer": null
   },
   {
+    "index": 6,
     "question": "Các thành phần trong cấu trúc của socket gồm có :",
     "question_images": [],
     "options": {
@@ -138,6 +144,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 7,
     "question": "Cấu trúc chung của giao thức tầng phiên gồm 4 phần là :",
     "question_images": [],
     "options": {
@@ -161,6 +168,7 @@
     "correctAnswer": null
   },
   {
+    "index": 8,
     "question": "Cấu trúc khuôn dạng của địa chỉ IP lớp A là :",
     "question_images": [],
     "options": {
@@ -184,6 +192,7 @@
     "correctAnswer": null
   },
   {
+    "index": 9,
     "question": "Chức năng chính của dịch vụ QoS là gì?",
     "question_images": [],
     "options": {
@@ -207,6 +216,7 @@
     "correctAnswer": null
   },
   {
+    "index": 10,
     "question": "Chức năng cơ bản của tầng ứng dụng là gì ?",
     "question_images": [],
     "options": {
@@ -230,6 +240,7 @@
     "correctAnswer": null
   },
   {
+    "index": 11,
     "question": "Chức năng của Router cho phép điều gì ?",
     "question_images": [],
     "options": {
@@ -253,6 +264,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 12,
     "question": "Chức năng nào sau đây không thuộc tầng giao vận",
     "question_images": [],
     "options": {
@@ -276,6 +288,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 13,
     "question": "Cơ chế truyền tin của mạng quảng bá là như thế nào?",
     "question_images": [],
     "options": {
@@ -299,6 +312,7 @@
     "correctAnswer": null
   },
   {
+    "index": 14,
     "question": "Đâu không phải là chức năng của QoS?",
     "question_images": [],
     "options": {
@@ -322,6 +336,7 @@
     "correctAnswer": null
   },
   {
+    "index": 15,
     "question": "Đâu không phải là đặc điểm của nhóm dịch vụ không hướng kết nối của tầng giao vận",
     "question_images": [],
     "options": {
@@ -345,6 +360,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 16,
     "question": "Đâu không phải là tên viết tắt của tên các mạng máy tính?",
     "question_images": [],
     "options": {
@@ -368,6 +384,7 @@
     "correctAnswer": null
   },
   {
+    "index": 17,
     "question": "Đâu không phải là ưu điểm của các mạng chuyển mạch thông báo?",
     "question_images": [],
     "options": {
@@ -391,6 +408,7 @@
     "correctAnswer": null
   },
   {
+    "index": 18,
     "question": "Đâu không phải nhân tố tác động đến quá trình truyền tin?",
     "question_images": [],
     "options": {
@@ -414,6 +432,7 @@
     "correctAnswer": null
   },
   {
+    "index": 19,
     "question": "Để giảm tắc nghẽn đường truyền và tăng tốc dộ truyền tin trong trường hợp xác định một khối tin bị thất lạc. TCP sẽ sử dụng các thông tin gì phản hồi tới bên gửi đểm xác định vùng dữ liệu sẽ phải gửi lại và kích thước của chúng",
     "question_images": [],
     "options": {
@@ -437,6 +456,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 20,
     "question": "Để phát hiện lỗi trong gói tin, người ta sử dụng kỹ thuật?",
     "question_images": [],
     "options": {
@@ -460,6 +480,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 21,
     "question": "Để thực hiện thành công 1 giao tiếp các nút mạng đầu cuối cần tuân thủ các quy tắc nào sau đây?",
     "question_images": [],
     "options": {
@@ -483,6 +504,7 @@
     "correctAnswer": null
   },
   {
+    "index": 22,
     "question": "Địa chỉ IPv4 có số lượng địa chỉ lý thuyết tối đa là :",
     "question_images": [],
     "options": {
@@ -506,6 +528,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 23,
     "question": "Đơn vị dữ liệu tại tầng thứ 4 được gọi là gì ?",
     "question_images": [],
     "options": {
@@ -529,6 +552,7 @@
     "correctAnswer": null
   },
   {
+    "index": 24,
     "question": "Frame là tên gọi của đơn vị truyền thông tầng nào ?",
     "question_images": [],
     "options": {
@@ -552,6 +576,7 @@
     "correctAnswer": null
   },
   {
+    "index": 25,
     "question": "Giả sử thực thể TCP A cần gửi 1500 byte cho thực thể giao vận B. Gói thứ nhất chứa 1000 byte dữ liệu, trường Sequence Number của gói này là 100. Trường Sequence Number của gói thứ hai sẽ là?",
     "question_images": [],
     "options": {
@@ -575,6 +600,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 26,
     "question": "Giải thuật định tuyến Link-State là giải thuật mà trong đó :",
     "question_images": [],
     "options": {
@@ -598,6 +624,7 @@
     "correctAnswer": null
   },
   {
+    "index": 27,
     "question": "Giao thức nào dưới đây đảm bảo dữ liệu gửi đi có tới máy nhận hoàn chỉnh hay không?",
     "question_images": [],
     "options": {
@@ -621,6 +648,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 28,
     "question": "Giao thức nào sau đây hoạt động ở tầng 3 ?",
     "question_images": [],
     "options": {
@@ -644,6 +672,7 @@
     "correctAnswer": null
   },
   {
+    "index": 29,
     "question": "Giao thức POP3 được sử dụng để",
     "question_images": [],
     "options": {
@@ -667,6 +696,7 @@
     "correctAnswer": null
   },
   {
+    "index": 30,
     "question": "Hãy chỉ ra phát biểu sai trong các phát biểu sau ?",
     "question_images": [],
     "options": {
@@ -690,6 +720,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 31,
     "question": "Hãy sắp xếp thứ thự thực hiện hoạt động của Web Server qua 4 giai đoạn sau :",
     "question_images": [],
     "options": {
@@ -713,6 +744,7 @@
     "correctAnswer": null
   },
   {
+    "index": 32,
     "question": "Kết nối Bluetooth giữa các thiết bị truyền tin được phân loại theo mạng nào?",
     "question_images": [],
     "options": {
@@ -736,6 +768,7 @@
     "correctAnswer": null
   },
   {
+    "index": 33,
     "question": "Khi bên cung cấp dịch vụ trình diễn không xác định đối tượng phía bên kia đầu giao tiếp có sẵn sàng hay không, bên cung cấp sẽ lựa chọn nhóm giao thức nào ?",
     "question_images": [],
     "options": {
@@ -751,6 +784,7 @@
     "correctAnswer": null
   },
   {
+    "index": 34,
     "question": "Khi một gói tin đến trạm đích, nó sẽ được kiểm tra để phát hiện lỗi và sửa lỗi (nếu có). Chức anwng này được thực hiện ở tầng thứ mấy trong mô hình OSI",
     "question_images": [],
     "options": {
@@ -774,6 +808,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 35,
     "question": "Khi sử dụng QoS tại sao chất lượng của dịch vụ được tăng lên?",
     "question_images": [],
     "options": {
@@ -797,6 +832,7 @@
     "correctAnswer": null
   },
   {
+    "index": 36,
     "question": "Khi thực thể TCP gửi một gói SYNACK segment với trường Acknowledgement Number = 100, điều này có nghĩa là?",
     "question_images": [],
     "options": {
@@ -820,6 +856,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 37,
     "question": "Loại địa chỉ Logic được sử dụng trong giao thức TCP là gì ?",
     "question_images": [],
     "options": {
@@ -843,6 +880,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 38,
     "question": "Một gói tin trong giao thức IP tầng 3 được gọi là gì ?",
     "question_images": [],
     "options": {
@@ -866,6 +904,7 @@
     "correctAnswer": null
   },
   {
+    "index": 39,
     "question": "Những phương pháp nào để diều khiển chống tắc nghẽn ?",
     "question_images": [],
     "options": {
@@ -889,6 +928,7 @@
     "correctAnswer": null
   },
   {
+    "index": 40,
     "question": "Phương pháp điều khiển dòng truyền tại tầng 2 là phương pháp nào ?",
     "question_images": [],
     "options": {
@@ -912,6 +952,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 41,
     "question": "Phương pháp nào được dùng để phân tách các khung tin ?",
     "question_images": [],
     "options": {
@@ -935,6 +976,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 42,
     "question": "Phương pháp nén gói tin bằng cách thay thế một dãy các dấu cách bằng một mã nén và một giá trị số lượng các dấu cách là phương pháp nào?",
     "question_images": [],
     "options": {
@@ -958,6 +1000,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 43,
     "question": "Phương pháp truyền tin nào cho phép tiến hành các đợi truyền dữ liệu đồng thời bằng cách cung cấp cho mỗi thiết bị một kênh truyền thông riêng biệt",
     "question_images": [],
     "options": {
@@ -981,6 +1024,7 @@
     "correctAnswer": null
   },
   {
+    "index": 44,
     "question": "Phương pháp xác định lỗi của khung tin dựa trên nguyên lý cân bằng các bit chẵn lẻ để chỉ ra lỗi là phương pháp nào ?",
     "question_images": [],
     "options": {
@@ -1004,6 +1048,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 45,
     "question": "Số lượng giao thức xuất hiện trên tầng ứng dụng là bao nhiêu",
     "question_images": [],
     "options": {
@@ -1027,6 +1072,7 @@
     "correctAnswer": null
   },
   {
+    "index": 46,
     "question": "Số lượng tầng trong mô hình TCP là bao nhiêu",
     "question_images": [],
     "options": {
@@ -1050,6 +1096,7 @@
     "correctAnswer": null
   },
   {
+    "index": 47,
     "question": "Tầng nào trong mô hình OSI thiết lập, duy trì hoặc hủy bỏ các giao dịch giữa các thực thể đầu cuối",
     "question_images": [],
     "options": {
@@ -1073,6 +1120,7 @@
     "correctAnswer": null
   },
   {
+    "index": 48,
     "question": "Tầng phiên có thể khôi phục hội thoại nhờ vào cơ chế nào ?",
     "question_images": [],
     "options": {
@@ -1096,6 +1144,7 @@
     "correctAnswer": null
   },
   {
+    "index": 49,
     "question": "Tầng truy cập mạng Network Access trong mô hình TCP đóng vai trò tương đương với các tầng nào của mô hình OSI.",
     "question_images": [],
     "options": {
@@ -1119,6 +1168,7 @@
     "correctAnswer": null
   },
   {
+    "index": 50,
     "question": "Tên miền ehou.edu.vn có thể gán với bao nhiêu địa chỉ IP",
     "question_images": [],
     "options": {
@@ -1142,6 +1192,7 @@
     "correctAnswer": null
   },
   {
+    "index": 51,
     "question": "Theo mô hình OSI, định dạng ảnh JPEG nằm ở tầng nào?",
     "question_images": [],
     "options": {
@@ -1165,6 +1216,7 @@
     "correctAnswer": null
   },
   {
+    "index": 52,
     "question": "Thiết bị nào sau đây được sử dụng tại trung tâm của mạng hình sao?",
     "question_images": [],
     "options": {
@@ -1188,6 +1240,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 53,
     "question": "Thứ tự các tầng (layer) của mô hình OSI theo thứ tự từ trên xuống là gì ?",
     "question_images": [],
     "options": {
@@ -1211,6 +1264,7 @@
     "correctAnswer": null
   },
   {
+    "index": 54,
     "question": "Tín hiệu DCHPDISCOVER là tín hiệu được gửi từ đâu ?",
     "question_images": [],
     "options": {
@@ -1234,6 +1288,7 @@
     "correctAnswer": null
   },
   {
+    "index": 55,
     "question": "Tốc độ truyền tin của cáp đồng trục (loại Thick) có thể đạt được tối đa là bao nhiêu ?",
     "question_images": [],
     "options": {
@@ -1257,6 +1312,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 56,
     "question": "Trong các tầng sau đây của mô hình OSI tầng nào chịu trách nhiệm biến đổi dữ liệu thành các ‘ngôn ngữ’ chung của mạng",
     "question_images": [],
     "options": {
@@ -1280,6 +1336,7 @@
     "correctAnswer": null
   },
   {
+    "index": 57,
     "question": "Trong giao thức HDLC để đánh dấu khung tin người ta sử dụng phương pháp nào",
     "question_images": [],
     "options": {
@@ -1303,6 +1360,7 @@
     "correctAnswer": 1
   },
   {
+    "index": 58,
     "question": "Trong liên kết phiên làm việc với tầng giao vận có những trường hợp nào xảy ra ?",
     "question_images": [],
     "options": {
@@ -1326,6 +1384,7 @@
     "correctAnswer": null
   },
   {
+    "index": 59,
     "question": "Trong phiên dịch thứ tự byte các CPU của Intel sẽ ưu tiên thứ tự phiên dịch, truyền dữ liệu như thế nào ?",
     "question_images": [],
     "options": {
@@ -1349,6 +1408,7 @@
     "correctAnswer": null
   },
   {
+    "index": 60,
     "question": "Trong quá trình truyền tin giai đoạn mã hóa “EnCode” nhằm thực hiện điều gì?",
     "question_images": [],
     "options": {
@@ -1372,6 +1432,7 @@
     "correctAnswer": null
   },
   {
+    "index": 61,
     "question": "Yếu tố nào sau đây gây nên tắc nghẽn mạng ?",
     "question_images": [],
     "options": {

@@ -12,7 +12,7 @@ def parse_html_to_json(file_path):
 
     card_blocks = soup.find_all("div", class_="card card-pricing text-left")
 
-    for card in card_blocks:
+    for index, card in enumerate(card_blocks, start=1):  # Add index here
         h5 = card.find("h5")
         if not h5:
             continue
@@ -60,7 +60,9 @@ def parse_html_to_json(file_path):
                 "images": option_image_urls  # Thêm ảnh vào đáp án
             }
 
+        # Append index to the question data
         questions_data.append({
+            "index": index,  # Add index number
             "question": question_text,
             "question_images": question_image_urls,  # Chỉ lấy ảnh trong phần câu hỏi
             "options": options,
@@ -71,7 +73,7 @@ def parse_html_to_json(file_path):
 
 
 # ====== MAIN ======
-url = "http://ehou.online/dap-an-mon-hoc-ehou/IT11"
+url = "http://ehou.online/dap-an-mon-hoc-ehou/EG10-1"
 
 os.makedirs("html", exist_ok=True)
 os.makedirs("json", exist_ok=True)
