@@ -1,149 +1,204 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8" />
-  <title>Quiz App</title>
-  <style>
-    body { font-family: sans-serif; padding: 20px; }
-    .question { margin-bottom: 20px; }
-    .correct { color: green; font-weight: bold; }
-    img { max-width: 100%; height: auto; margin-top: 10px; }
-    #index-bar { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
-    #index-bar a { padding: 4px 8px; background: #eee; border-radius: 5px; text-decoration: none; color: #333; font-size: 14px; }
-    #index-bar a:hover { background: #ddd; }
-    #scrollTopBtn { position: fixed; bottom: 20px; right: 20px; width: 90px; height: 90px; border: none; border-radius: 20px; background-color: #333; color: white; font-size: 24px; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.3); z-index: 1000; opacity: 0.7; transition: opacity 0.3s; }
-    #scrollTopBtn:hover { opacity: 1; }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz App</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      .question {
+        margin-bottom: 20px;
+      }
+      .correct {
+        color: green;
+        font-weight: bold;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+      }
+      #index-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+      #index-bar a {
+        padding: 4px 8px;
+        background: #eee;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+      }
+      #index-bar a:hover {
+        background: #ddd;
+      }
+      #scrollTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 90px;
+        height: 90px;
+        border: none;
+        border-radius: 20px;
+        background-color: #333;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+      }
+      #scrollTopBtn:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin-bottom: 15px">
+      <label for="fileSelect">Chọn bộ câu hỏi:</label>
+      <select id="fileSelect"></select>
+    </div>
 
-  <div style="margin-bottom: 15px">
-    <label for="fileSelect">Chọn bộ câu hỏi:</label>
-    <select id="fileSelect"></select>
-  </div>
+    <div id="search-bar-container" style="margin-bottom: 15px">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Tìm câu hỏi..."
+        style="width: 100%; padding: 8px; font-size: 16px"
+      />
+    </div>
 
-  <div id="search-bar-container" style="margin-bottom: 15px">
-    <input type="text" id="searchInput" placeholder="Tìm câu hỏi..." style="width: 100%; padding: 8px; font-size: 16px" />
-  </div>
+    <div id="index-bar"></div>
+    <hr />
+    <div id="quiz-container"></div>
+    <button id="scrollTopBtn" onclick="scrollToTop()">⬆</button>
 
-  <div id="index-bar"></div>
-  <hr />
-  <div id="quiz-container"></div>
-  <button id="scrollTopBtn" onclick="scrollToTop()">⬆</button>
+    <script>
+      const fileSelect = document.getElementById("fileSelect");
+      const container = document.getElementById("quiz-container");
+      const indexBar = document.getElementById("index-bar");
 
-  <script>
-    const fileSelect = document.getElementById("fileSelect");
-    const container = document.getElementById("quiz-container");
-    const indexBar = document.getElementById("index-bar");
+      // Load danh sách file JSON
+      fetch("file_list.json")
+        .then((res) => res.json())
+        .then((files) => {
+          files.forEach((f) => {
+            const opt = document.createElement("option");
+            opt.value = f;
+            opt.textContent = f;
+            fileSelect.appendChild(opt);
+          });
 
-    // Load danh sách file JSON
-    fetch("file_list.json")
-      .then(res => res.json())
-      .then(files => {
-        files.forEach(f => {
-          const opt = document.createElement("option");
-          opt.value = f;
-          opt.textContent = f;
-          fileSelect.appendChild(opt);
+          if (files.length > 0) {
+            loadQuiz(files[0]); // Load file đầu tiên mặc định
+          }
         });
 
-        if (files.length > 0) {
-          loadQuiz(files[0]); // Load file đầu tiên mặc định
-        }
+      fileSelect.addEventListener("change", function () {
+        loadQuiz(this.value);
       });
 
-    fileSelect.addEventListener("change", function() {
-      loadQuiz(this.value);
-    });
+      function loadQuiz(fileName) {
+        fetch(`json/${fileName}`)
+          .then((res) => res.json())
+          .then((data) => renderQuiz(data))
+          .catch((err) => console.error("Lỗi khi tải dữ liệu:", err));
+      }
 
-    function loadQuiz(fileName) {
-      fetch(`json/${fileName}`)
-        .then(res => res.json())
-        .then(data => renderQuiz(data))
-        .catch(err => console.error("Lỗi khi tải dữ liệu:", err));
-    }
+      function renderQuiz(data) {
+        container.innerHTML = "";
+        indexBar.innerHTML = "";
+        const seenStarts = new Set();
 
-    function renderQuiz(data) {
-      container.innerHTML = "";
-      indexBar.innerHTML = "";
-      const seenStarts = new Set();
+        data.forEach((q, index) => {
+          const div = document.createElement("div");
+          div.className = "question";
 
-      data.forEach((q, index) => {
-        const div = document.createElement("div");
-        div.className = "question";
+          const firstWord = q.question.trim().split(" ")[0];
+          const anchor = firstWord.toLowerCase();
 
-        const firstWord = q.question.trim().split(" ")[0];
-        const anchor = firstWord.toLowerCase();
+          if (!seenStarts.has(anchor)) {
+            const link = document.createElement("a");
+            link.href = `#${anchor}`;
+            link.textContent = firstWord;
+            indexBar.appendChild(link);
+            seenStarts.add(anchor);
+          }
 
-        if (!seenStarts.has(anchor)) {
-          const link = document.createElement("a");
-          link.href = `#${anchor}`;
-          link.textContent = firstWord;
-          indexBar.appendChild(link);
-          seenStarts.add(anchor);
-        }
+          div.id = anchor;
 
-        div.id = anchor;
+          // Câu hỏi văn bản
+          const p = document.createElement("p");
+          p.innerHTML = `<strong>Câu ${index + 1}:</strong> ${q.question}`;
+          div.appendChild(p);
 
-        // Câu hỏi văn bản
-        const p = document.createElement("p");
-        p.innerHTML = `<strong>Câu ${index + 1}:</strong> ${q.question}`;
-        div.appendChild(p);
+          // Hiển thị ảnh trong câu hỏi, sau văn bản câu hỏi
+          if (Array.isArray(q.question_images)) {
+            q.question_images.forEach((imgUrl) => {
+              const img = document.createElement("img");
+              img.src = imgUrl;
+              img.alt = `Câu ${index + 1}`;
+              div.appendChild(img);
+            });
+          }
 
-        // Hiển thị ảnh trong câu hỏi, sau văn bản câu hỏi
-        if (Array.isArray(q.question_images)) {
-          q.question_images.forEach(imgUrl => {
-            const img = document.createElement("img");
-            img.src = imgUrl;
-            img.alt = `Câu ${index + 1}`;
-            div.appendChild(img);
-          });
-        }
+          // Lựa chọn đáp án
+          const ul = document.createElement("ul");
+          for (const key in q.options) {
+            const li = document.createElement("li");
 
-        // Lựa chọn đáp án
-        const ul = document.createElement("ul");
-        for (const key in q.options) {
-          const li = document.createElement("li");
+            // Nếu là đáp án đúng thì thêm dấu ✔ trước
+            if (key == q.correctAnswer) {
+              li.classList.add("correct");
+              const checkMark = document.createElement("span");
+              checkMark.textContent = "✔ ";
+              li.appendChild(checkMark);
+            }
 
-          // Nếu có ảnh trong đáp án
-          const optionImages = q.options[key].images;
-          li.textContent = `${key}. ${q.options[key].text}`;
+            // Thêm text của đáp án
+            const textSpan = document.createElement("span");
+            textSpan.textContent = `${key}. ${q.options[key].text}`;
+            li.appendChild(textSpan);
 
-          if (optionImages.length > 0) {
-            optionImages.forEach(imgUrl => {
+            // Nếu có ảnh trong đáp án
+            const optionImages = q.options[key].images || [];
+            optionImages.forEach((imgUrl) => {
               const img = document.createElement("img");
               img.src = imgUrl;
               img.alt = `Ảnh trong đáp án ${key}`;
               li.appendChild(img);
             });
+
+            ul.appendChild(li);
           }
 
-          if (key == q.correctAnswer) {
-            li.classList.add("correct");
-            li.textContent = `✔ ${li.textContent}`;
-          }
-          ul.appendChild(li);
-        }
+          div.appendChild(ul);
+          container.appendChild(div);
+        });
+      }
 
-        div.appendChild(ul);
-        container.appendChild(div);
-      });
-    }
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
 
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
+      // Tìm kiếm câu hỏi
+      document
+        .getElementById("searchInput")
+        .addEventListener("input", function () {
+          const filter = this.value.toLowerCase();
+          const questions = document.querySelectorAll(".question");
 
-    // Tìm kiếm câu hỏi
-    document.getElementById("searchInput").addEventListener("input", function() {
-      const filter = this.value.toLowerCase();
-      const questions = document.querySelectorAll(".question");
-
-      questions.forEach(q => {
-        const text = q.querySelector("p").textContent.toLowerCase();
-        q.style.display = text.includes(filter) ? "" : "none";
-      });
-    });
-  </script>
-</body>
+          questions.forEach((q) => {
+            const text = q.querySelector("p").textContent.toLowerCase();
+            q.style.display = text.includes(filter) ? "" : "none";
+          });
+        });
+    </script>
+  </body>
 </html>

@@ -131,7 +131,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 5,
@@ -223,7 +223,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 8,
@@ -725,7 +725,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 23,
@@ -755,7 +755,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 24,
@@ -789,7 +789,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 25,
@@ -959,7 +959,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 30,
@@ -1035,7 +1035,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 33,
@@ -1061,7 +1061,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 34,
@@ -1087,7 +1087,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 35,
@@ -1121,7 +1121,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 36,
@@ -1181,7 +1181,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 38,
@@ -1378,7 +1378,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 44,
@@ -1412,7 +1412,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 45,
@@ -1994,7 +1994,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 64,
@@ -2028,7 +2028,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 65,
@@ -2054,7 +2054,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 66,
@@ -2080,7 +2080,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 67,
@@ -2112,7 +2112,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 68,
@@ -2144,7 +2144,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 69,
@@ -2176,7 +2176,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 70,
@@ -2238,7 +2238,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 72,
@@ -2270,7 +2270,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 73,
@@ -2328,7 +2328,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 75,
@@ -2584,7 +2584,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 83,
@@ -2887,7 +2887,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 92,
@@ -2940,7 +2940,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 94,
@@ -2995,7 +2995,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 96,
@@ -3063,7 +3063,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 98,
@@ -3123,7 +3123,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 100,
@@ -3401,7 +3401,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 110,
@@ -3715,7 +3715,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 120,
@@ -3941,7 +3941,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 127,
@@ -3973,7 +3973,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 128,
@@ -4005,7 +4005,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 129,
@@ -4030,6 +4030,30 @@
       },
       "4": {
         "text": "-4",
+        "images": []
+      }
+    },
+    "correctAnswer": 1
+  },
+  {
+    "index": 130,
+    "question": "Hàm số định bởi công thức nào sau đây là hàm chẵn?",
+    "question_images": [],
+    "options": {
+      "1": {
+        "text": "|x| + 2000",
+        "images": []
+      }
+    },
+    "correctAnswer": 1
+  },
+  {
+    "index": 131,
+    "question": "Trong các tập sau, tập nào hữu hạn",
+    "question_images": [],
+    "options": {
+      "1": {
+        "text": "Tập mọi số nguyên dương bé thua 1.000.000.000",
         "images": []
       }
     },
