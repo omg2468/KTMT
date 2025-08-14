@@ -1,670 +1,1396 @@
 [
   {
     "question": "Môi trường truyền tin thông thuờng trong mạng máy tính là?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Tất cả các phương tiện.",
-      "2": "Các loại cáp điện (cáp đồng trục, cáp xoắn đôi)",
-      "3": "Cáp quang",
-      "4": "Sóng ngắn"
+      "1": {
+        "text": "Tất cả các phương tiện.",
+        "images": []
+      },
+      "2": {
+        "text": "Các loại cáp điện (cáp đồng trục, cáp xoắn đôi)",
+        "images": []
+      },
+      "3": {
+        "text": "Cáp quang",
+        "images": []
+      },
+      "4": {
+        "text": "Sóng ngắn",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Các điểm đồng bộ chính đóng vai trò gì ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Khôi phục lại hội thoại.",
-      "2": "Phân tách dữ liệu thành chuỗi các hội thoại",
-      "3": "Tất cả các phương án",
-      "4": "Yêu cầu người dùng phải xác nhận trước khi có quyền thao tác lên đoạn hội thoại đó"
+      "1": {
+        "text": "Khôi phục lại hội thoại.",
+        "images": []
+      },
+      "2": {
+        "text": "Phân tách dữ liệu thành chuỗi các hội thoại",
+        "images": []
+      },
+      "3": {
+        "text": "Tất cả các phương án",
+        "images": []
+      },
+      "4": {
+        "text": "Yêu cầu người dùng phải xác nhận trước khi có quyền thao tác lên đoạn hội thoại đó",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Các giao thức ở tầng 2 có được chia thành mấy nhóm",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "3",
-      "2": "2",
-      "3": "4",
-      "4": "5"
+      "1": {
+        "text": "3",
+        "images": []
+      },
+      "2": {
+        "text": "2",
+        "images": []
+      },
+      "3": {
+        "text": "4",
+        "images": []
+      },
+      "4": {
+        "text": "5",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Các loại dịch vụ cho tầng trình diễn được chia làm mấy loại",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "2",
-      "2": "3",
-      "3": "4",
-      "4": "5"
+      "1": {
+        "text": "2",
+        "images": []
+      },
+      "2": {
+        "text": "3",
+        "images": []
+      },
+      "3": {
+        "text": "4",
+        "images": []
+      },
+      "4": {
+        "text": "5",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Các quy tắc đồng thuận về giao tiếp phải được tiến hành trong giai đoạn nào?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Sau khi bên nhận, nhận được dữ liệu",
-      "2": "Sau khi bên nhận, nhận được tín hiệu thăm dò",
-      "3": "Trước khi tiến hành giao tiếp",
-      "4": "Trước khi tiến hành gửi dữ liệu"
+      "1": {
+        "text": "Sau khi bên nhận, nhận được dữ liệu",
+        "images": []
+      },
+      "2": {
+        "text": "Sau khi bên nhận, nhận được tín hiệu thăm dò",
+        "images": []
+      },
+      "3": {
+        "text": "Trước khi tiến hành giao tiếp",
+        "images": []
+      },
+      "4": {
+        "text": "Trước khi tiến hành gửi dữ liệu",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Các thành phần trong cấu trúc của socket gồm có :",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Địa chỉ IPSố hiệu cổngLoại socket",
-      "2": "Địa chỉ IPLoại socket",
-      "3": "Địa chỉ IPLoại socketLoại giao thức",
-      "4": "Loại giao thứcLoại socketSố hiệu cổng"
+      "1": {
+        "text": "Địa chỉ IPSố hiệu cổngLoại socket",
+        "images": []
+      },
+      "2": {
+        "text": "Địa chỉ IPLoại socket",
+        "images": []
+      },
+      "3": {
+        "text": "Địa chỉ IPLoại socketLoại giao thức",
+        "images": []
+      },
+      "4": {
+        "text": "Loại giao thứcLoại socketSố hiệu cổng",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Cấu trúc chung của giao thức tầng phiên gồm 4 phần là :",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "INLPARAMETERUSER DATA",
-      "2": "SIIPARAMETERUSER DATA",
-      "3": "SILIUSERDATA",
-      "4": "SILPARAMETERUSER DATA"
+      "1": {
+        "text": "INLPARAMETERUSER DATA",
+        "images": []
+      },
+      "2": {
+        "text": "SIIPARAMETERUSER DATA",
+        "images": []
+      },
+      "3": {
+        "text": "SILIUSERDATA",
+        "images": []
+      },
+      "4": {
+        "text": "SILPARAMETERUSER DATA",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Cấu trúc khuôn dạng của địa chỉ IP lớp A là :",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Class Bit 1 bitNetID: 7 bitsHostID: 24 bits",
-      "2": "Class Bit 1 bitNetID: 7 bitsHostID: 32 bits",
-      "3": "Class Bit 1 bitNetID: 8 bitsHostID: 24 bits",
-      "4": "Class Bit 1 bitNetID: 8 bitsHostID: 32 bits"
+      "1": {
+        "text": "Class Bit 1 bitNetID: 7 bitsHostID: 24 bits",
+        "images": []
+      },
+      "2": {
+        "text": "Class Bit 1 bitNetID: 7 bitsHostID: 32 bits",
+        "images": []
+      },
+      "3": {
+        "text": "Class Bit 1 bitNetID: 8 bitsHostID: 24 bits",
+        "images": []
+      },
+      "4": {
+        "text": "Class Bit 1 bitNetID: 8 bitsHostID: 32 bits",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Chức năng chính của dịch vụ QoS là gì?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Khả năng phân loại và gán độ ưu tiên cho các gói tin",
-      "2": "Khả năng phân loại và loại bỏ các gói tin",
-      "3": "Khả năng phân loại và phân luồng các gói tin",
-      "4": "Khả năng phân loại và tìm đường cho các gói tin"
+      "1": {
+        "text": "Khả năng phân loại và gán độ ưu tiên cho các gói tin",
+        "images": []
+      },
+      "2": {
+        "text": "Khả năng phân loại và loại bỏ các gói tin",
+        "images": []
+      },
+      "3": {
+        "text": "Khả năng phân loại và phân luồng các gói tin",
+        "images": []
+      },
+      "4": {
+        "text": "Khả năng phân loại và tìm đường cho các gói tin",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Chức năng cơ bản của tầng ứng dụng là gì ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Cung cấp các dịch vụ mã háo và giải mã cho các gói tin",
-      "2": "Cung cấp các ứng dụng truy xuất tới dịch vụ mạng",
-      "3": "Cung cấp cách thức đóng gói các gói tin để chuyển xuống tầng dưới",
-      "4": "Cung cấp giao diện giữa người dùng và Hệ điều hành."
+      "1": {
+        "text": "Cung cấp các dịch vụ mã háo và giải mã cho các gói tin",
+        "images": []
+      },
+      "2": {
+        "text": "Cung cấp các ứng dụng truy xuất tới dịch vụ mạng",
+        "images": []
+      },
+      "3": {
+        "text": "Cung cấp cách thức đóng gói các gói tin để chuyển xuống tầng dưới",
+        "images": []
+      },
+      "4": {
+        "text": "Cung cấp giao diện giữa người dùng và Hệ điều hành.",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Chức năng của Router cho phép điều gì ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Liên kết nhiều mạng LAN lại với nhau, đồng thời ngăn không cho các packet thuộc loại Broadcast đi qua nó và giúp việc định tuyến cho các packet",
-      "2": "Định tuyến cho các packet, chia nhỏ các Collision Domain nhưng không chia nhỏ các Broadcast Domain",
-      "3": "Kéo dài 1 nhánh LAN thông qua việc khuyếch đại tín hiệu truyền đến nó",
-      "4": "Kết nối nhiều máy tính lại với nhau"
+      "1": {
+        "text": "Liên kết nhiều mạng LAN lại với nhau, đồng thời ngăn không cho các packet thuộc loại Broadcast đi qua nó và giúp việc định tuyến cho các packet",
+        "images": []
+      },
+      "2": {
+        "text": "Định tuyến cho các packet, chia nhỏ các Collision Domain nhưng không chia nhỏ các Broadcast Domain",
+        "images": []
+      },
+      "3": {
+        "text": "Kéo dài 1 nhánh LAN thông qua việc khuyếch đại tín hiệu truyền đến nó",
+        "images": []
+      },
+      "4": {
+        "text": "Kết nối nhiều máy tính lại với nhau",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Chức năng nào sau đây không thuộc tầng giao vận",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Tìm đường đi cho các gói tin",
-      "2": "Đảm bảo dữ liệu được truyền không có lỗi",
-      "3": "Tăng cường chất lượng dịch vụ",
-      "4": "Xác định vùng dữ liệu truyền lại nếu có lỗi xẩy ra"
+      "1": {
+        "text": "Tìm đường đi cho các gói tin",
+        "images": []
+      },
+      "2": {
+        "text": "Đảm bảo dữ liệu được truyền không có lỗi",
+        "images": []
+      },
+      "3": {
+        "text": "Tăng cường chất lượng dịch vụ",
+        "images": []
+      },
+      "4": {
+        "text": "Xác định vùng dữ liệu truyền lại nếu có lỗi xẩy ra",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Cơ chế truyền tin của mạng quảng bá là như thế nào?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Các gói tin được gửi cùng 1 lúc đến tất cả các nút trong mạng.Nếu đúng là nút cần nhận dữ liệu, gói tin sẽ được lấy về đủ xử lý.",
-      "2": "Các gói tin được gửi lên đường truyền chung. Nút mạng nào có nhu cầu lấy dữ liệu sẽ xuống đường truyền để lấy dữ liệu",
-      "3": "Các gói tin sẽ được gửi về thiết bị tập trung. Các nút mạng sẽ quét thông tin tại thiết bị tập trung, nếu đúng địa chỉ nhận sẽ lấy gói tin về, ngược lại sẽ bỏ qua",
-      "4": "Các nút mạng sẽ nhận các gói tin theo trình tự.Nếu đúng địa chỉ nó sẽ nhận gói tin đó, ngược lại sẽ gửi tiếp cho nút kế cận"
+      "1": {
+        "text": "Các gói tin được gửi cùng 1 lúc đến tất cả các nút trong mạng.Nếu đúng là nút cần nhận dữ liệu, gói tin sẽ được lấy về đủ xử lý.",
+        "images": []
+      },
+      "2": {
+        "text": "Các gói tin được gửi lên đường truyền chung. Nút mạng nào có nhu cầu lấy dữ liệu sẽ xuống đường truyền để lấy dữ liệu",
+        "images": []
+      },
+      "3": {
+        "text": "Các gói tin sẽ được gửi về thiết bị tập trung. Các nút mạng sẽ quét thông tin tại thiết bị tập trung, nếu đúng địa chỉ nhận sẽ lấy gói tin về, ngược lại sẽ bỏ qua",
+        "images": []
+      },
+      "4": {
+        "text": "Các nút mạng sẽ nhận các gói tin theo trình tự.Nếu đúng địa chỉ nó sẽ nhận gói tin đó, ngược lại sẽ gửi tiếp cho nút kế cận",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Đâu không phải là chức năng của QoS?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Cơ chế quản lý tắc nghẽn lưu lượng",
-      "2": "Cung cấp cơ chế bảo mật dữ liệu",
-      "3": "Cung cấp dịch vụ đảm bảo quá trình truyên tin",
-      "4": "Đảm bảo rằng gói tin sẽ không bị matas"
+      "1": {
+        "text": "Cơ chế quản lý tắc nghẽn lưu lượng",
+        "images": []
+      },
+      "2": {
+        "text": "Cung cấp cơ chế bảo mật dữ liệu",
+        "images": []
+      },
+      "3": {
+        "text": "Cung cấp dịch vụ đảm bảo quá trình truyên tin",
+        "images": []
+      },
+      "4": {
+        "text": "Đảm bảo rằng gói tin sẽ không bị matas",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Đâu không phải là đặc điểm của nhóm dịch vụ không hướng kết nối của tầng giao vận",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Có yêu cầu xác nhận dữ liệu đến",
-      "2": "Độ tin cậy thấp",
-      "3": "Không sắp xếp dữ liệu theo thứ tự gửi",
-      "4": "Tốc độ truyền tin nhanh"
+      "1": {
+        "text": "Có yêu cầu xác nhận dữ liệu đến",
+        "images": []
+      },
+      "2": {
+        "text": "Độ tin cậy thấp",
+        "images": []
+      },
+      "3": {
+        "text": "Không sắp xếp dữ liệu theo thứ tự gửi",
+        "images": []
+      },
+      "4": {
+        "text": "Tốc độ truyền tin nhanh",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Đâu không phải là tên viết tắt của tên các mạng máy tính?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "GLOBAL",
-      "2": "LAN",
-      "3": "NAN",
-      "4": "WAN"
+      "1": {
+        "text": "GLOBAL",
+        "images": []
+      },
+      "2": {
+        "text": "LAN",
+        "images": []
+      },
+      "3": {
+        "text": "NAN",
+        "images": []
+      },
+      "4": {
+        "text": "WAN",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Đâu không phải là ưu điểm của các mạng chuyển mạch thông báo?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Cung cấp một sự quản lý hiệu quả hơn đối với sự lưu thông của mạng",
-      "2": "Giảm sự tắc nghẽn trên mạng",
-      "3": "Nếu một liên kết bị sự cố trong quá trình truyền thông thì các gói tin còn lại có thể được gửi đi theo các con đường khác",
-      "4": "Tăng hiệu quả sử dụng kênh truyền"
+      "1": {
+        "text": "Cung cấp một sự quản lý hiệu quả hơn đối với sự lưu thông của mạng",
+        "images": []
+      },
+      "2": {
+        "text": "Giảm sự tắc nghẽn trên mạng",
+        "images": []
+      },
+      "3": {
+        "text": "Nếu một liên kết bị sự cố trong quá trình truyền thông thì các gói tin còn lại có thể được gửi đi theo các con đường khác",
+        "images": []
+      },
+      "4": {
+        "text": "Tăng hiệu quả sử dụng kênh truyền",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Đâu không phải nhân tố tác động đến quá trình truyền tin?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Cấu hình của máy tính",
-      "2": "Chất lượng đường truyền",
-      "3": "Số lần thay đổi khuôn dạng bản tin",
-      "4": "Số lượng mẩu tin được truyền đồng thời tại 1 điểm"
+      "1": {
+        "text": "Cấu hình của máy tính",
+        "images": []
+      },
+      "2": {
+        "text": "Chất lượng đường truyền",
+        "images": []
+      },
+      "3": {
+        "text": "Số lần thay đổi khuôn dạng bản tin",
+        "images": []
+      },
+      "4": {
+        "text": "Số lượng mẩu tin được truyền đồng thời tại 1 điểm",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Để giảm tắc nghẽn đường truyền và tăng tốc dộ truyền tin trong trường hợp xác định một khối tin bị thất lạc. TCP sẽ sử dụng các thông tin gì phản hồi tới bên gửi đểm xác định vùng dữ liệu sẽ phải gửi lại và kích thước của chúng",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "ACKWindows",
-      "2": "ACKFIN",
-      "3": "ACKSEQ",
-      "4": "SEQWindows"
+      "1": {
+        "text": "ACKWindows",
+        "images": []
+      },
+      "2": {
+        "text": "ACKFIN",
+        "images": []
+      },
+      "3": {
+        "text": "ACKSEQ",
+        "images": []
+      },
+      "4": {
+        "text": "SEQWindows",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Để phát hiện lỗi trong gói tin, người ta sử dụng kỹ thuật?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Checksum",
-      "2": "Bộ định thời (timer)",
-      "3": "Số thứ tự (sequence number)",
-      "4": "Số thứ tự ghi nhận (acknowledgement number)"
+      "1": {
+        "text": "Checksum",
+        "images": []
+      },
+      "2": {
+        "text": "Bộ định thời (timer)",
+        "images": []
+      },
+      "3": {
+        "text": "Số thứ tự (sequence number)",
+        "images": []
+      },
+      "4": {
+        "text": "Số thứ tự ghi nhận (acknowledgement number)",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Để thực hiện thành công 1 giao tiếp các nút mạng đầu cuối cần tuân thủ các quy tắc nào sau đây?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Định danh đượcngười gửi - nhận",
-      "2": "Khuôn dạng của thông điệp và yêu cầu thông tin",
-      "3": "Sử dụng chung ngônngữ. Tốc độ và thời gian truyền tải thông ti",
-      "4": "Tất cả các phương án"
+      "1": {
+        "text": "Định danh đượcngười gửi - nhận",
+        "images": []
+      },
+      "2": {
+        "text": "Khuôn dạng của thông điệp và yêu cầu thông tin",
+        "images": []
+      },
+      "3": {
+        "text": "Sử dụng chung ngônngữ. Tốc độ và thời gian truyền tải thông ti",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả các phương án",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Địa chỉ IPv4 có số lượng địa chỉ lý thuyết tối đa là :",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "232",
-      "2": "216",
-      "3": "264",
-      "4": "28"
+      "1": {
+        "text": "232",
+        "images": []
+      },
+      "2": {
+        "text": "216",
+        "images": []
+      },
+      "3": {
+        "text": "264",
+        "images": []
+      },
+      "4": {
+        "text": "28",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Đơn vị dữ liệu tại tầng thứ 4 được gọi là gì ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Bit",
-      "2": "Frame",
-      "3": "Packet",
-      "4": "Segment"
+      "1": {
+        "text": "Bit",
+        "images": []
+      },
+      "2": {
+        "text": "Frame",
+        "images": []
+      },
+      "3": {
+        "text": "Packet",
+        "images": []
+      },
+      "4": {
+        "text": "Segment",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Frame là tên gọi của đơn vị truyền thông tầng nào ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Application",
-      "2": "Data Link",
-      "3": "Network",
-      "4": "Transport"
+      "1": {
+        "text": "Application",
+        "images": []
+      },
+      "2": {
+        "text": "Data Link",
+        "images": []
+      },
+      "3": {
+        "text": "Network",
+        "images": []
+      },
+      "4": {
+        "text": "Transport",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Giả sử thực thể TCP A cần gửi 1500 byte cho thực thể giao vận B. Gói thứ nhất chứa 1000 byte dữ liệu, trường Sequence Number của gói này là 100. Trường Sequence Number của gói thứ hai sẽ là?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "1100",
-      "2": "1101",
-      "3": "500",
-      "4": "501"
+      "1": {
+        "text": "1100",
+        "images": []
+      },
+      "2": {
+        "text": "1101",
+        "images": []
+      },
+      "3": {
+        "text": "500",
+        "images": []
+      },
+      "4": {
+        "text": "501",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Giải thuật định tuyến Link-State là giải thuật mà trong đó :",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Các nút sẽ được nhóm thành các vùng,  nhóm các vùng lại thành liên vùng, nhóm các liên vùng thành khu vực…",
-      "2": "Mọi nút đều biết đường đi đến các nút láng giềng kề bên chúng và nếu chúng ta đảm bảo rằng tổng các kiến thức này được phân phối cho mọi nút thì mỗi nút sẽ có đủ hiểu biết về mạng để dựng lên một bản đồ hoàn chỉnh của mạng",
-      "3": "Mỗi nút thiết lập một mảng một chiều chứa khoảng cách (chi phí) từ nó đến tất cả các nút còn lại và sau đó phát thông tin này đến tất cả các nút láng giềng của nó là giải thuật nào?",
-      "4": "Tất cả đều đúng"
+      "1": {
+        "text": "Các nút sẽ được nhóm thành các vùng,  nhóm các vùng lại thành liên vùng, nhóm các liên vùng thành khu vực…",
+        "images": []
+      },
+      "2": {
+        "text": "Mọi nút đều biết đường đi đến các nút láng giềng kề bên chúng và nếu chúng ta đảm bảo rằng tổng các kiến thức này được phân phối cho mọi nút thì mỗi nút sẽ có đủ hiểu biết về mạng để dựng lên một bản đồ hoàn chỉnh của mạng",
+        "images": []
+      },
+      "3": {
+        "text": "Mỗi nút thiết lập một mảng một chiều chứa khoảng cách (chi phí) từ nó đến tất cả các nút còn lại và sau đó phát thông tin này đến tất cả các nút láng giềng của nó là giải thuật nào?",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả đều đúng",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Giao thức nào dưới đây đảm bảo dữ liệu gửi đi có tới máy nhận hoàn chỉnh hay không?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "TCP",
-      "2": "ARP",
-      "3": "IP",
-      "4": "UDP"
+      "1": {
+        "text": "TCP",
+        "images": []
+      },
+      "2": {
+        "text": "ARP",
+        "images": []
+      },
+      "3": {
+        "text": "IP",
+        "images": []
+      },
+      "4": {
+        "text": "UDP",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Giao thức nào sau đây hoạt động ở tầng 3 ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "ARP",
-      "2": "ICMP",
-      "3": "IP",
-      "4": "Tất cả các giao thức."
+      "1": {
+        "text": "ARP",
+        "images": []
+      },
+      "2": {
+        "text": "ICMP",
+        "images": []
+      },
+      "3": {
+        "text": "IP",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả các giao thức.",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Giao thức POP3 được sử dụng để",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Gửi thư điện tử từ Client đến Server",
-      "2": "Gửi thư điện tử từ Server đến Client",
-      "3": "Gửi thư điện tử từ Server đến Server",
-      "4": "Gửi thư từ Mail Server đến Mail Agent Client"
+      "1": {
+        "text": "Gửi thư điện tử từ Client đến Server",
+        "images": []
+      },
+      "2": {
+        "text": "Gửi thư điện tử từ Server đến Client",
+        "images": []
+      },
+      "3": {
+        "text": "Gửi thư điện tử từ Server đến Server",
+        "images": []
+      },
+      "4": {
+        "text": "Gửi thư từ Mail Server đến Mail Agent Client",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Hãy chỉ ra phát biểu sai trong các phát biểu sau ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Một số số hiệu cổng có thể được dùng cho cả hai giao thức TCP và UDP",
-      "2": "Số hiệu cổng chỉ được sử dụng duy nhất cho giao thức TCP",
-      "3": "Số hiệu cổng chỉ được sử dụng duy nhất cho giao thức UDP",
-      "4": "Tất cả số hiệu công đều được sử dụng chung cả hai giao thức UDP và TCP"
+      "1": {
+        "text": "Một số số hiệu cổng có thể được dùng cho cả hai giao thức TCP và UDP",
+        "images": []
+      },
+      "2": {
+        "text": "Số hiệu cổng chỉ được sử dụng duy nhất cho giao thức TCP",
+        "images": []
+      },
+      "3": {
+        "text": "Số hiệu cổng chỉ được sử dụng duy nhất cho giao thức UDP",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả số hiệu công đều được sử dụng chung cả hai giao thức UDP và TCP",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Hãy sắp xếp thứ thự thực hiện hoạt động của Web Server qua 4 giai đoạn sau :",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "1. Trình duyệt kiểm tra URL.2. NS phản hồi IP của URL truy vấn3. Truy vấn đến DNS yêu cầu địa chỉ IP của URL.4.Tạo kết nối tới Web Server",
-      "2": "1. Trình duyệt kiểm tra URL.2. Truy vấn đến DNS yêu cầu địa chỉ IP của URL.3. NS phản hồi IP của URL truy vấn4.Tạo kết nối tới Web Server",
-      "3": "1. Trình duyệt kiểm tra URL.2. Truy vấn đến DNS yêu cầu địa chỉ IP của URL.3.Tạo kết nối tới Web Server4. NS phản hồi IP của URL truy vấn",
-      "4": "1. Truy vấn đến DNS yêu cầu địa chỉ IP của URL2. Trình duyệt kiểm tra URL.3. NS phản hồi IP của URL truy vấn4.Tạo kết nối tới Web Server"
+      "1": {
+        "text": "1. Trình duyệt kiểm tra URL.2. NS phản hồi IP của URL truy vấn3. Truy vấn đến DNS yêu cầu địa chỉ IP của URL.4.Tạo kết nối tới Web Server",
+        "images": []
+      },
+      "2": {
+        "text": "1. Trình duyệt kiểm tra URL.2. Truy vấn đến DNS yêu cầu địa chỉ IP của URL.3. NS phản hồi IP của URL truy vấn4.Tạo kết nối tới Web Server",
+        "images": []
+      },
+      "3": {
+        "text": "1. Trình duyệt kiểm tra URL.2. Truy vấn đến DNS yêu cầu địa chỉ IP của URL.3.Tạo kết nối tới Web Server4. NS phản hồi IP của URL truy vấn",
+        "images": []
+      },
+      "4": {
+        "text": "1. Truy vấn đến DNS yêu cầu địa chỉ IP của URL2. Trình duyệt kiểm tra URL.3. NS phản hồi IP của URL truy vấn4.Tạo kết nối tới Web Server",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Kết nối Bluetooth giữa các thiết bị truyền tin được phân loại theo mạng nào?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Mạng ATM",
-      "2": "Mạng Broadcast",
-      "3": "Mạng Client – Server",
-      "4": "Mạng điểm-điểm"
+      "1": {
+        "text": "Mạng ATM",
+        "images": []
+      },
+      "2": {
+        "text": "Mạng Broadcast",
+        "images": []
+      },
+      "3": {
+        "text": "Mạng Client – Server",
+        "images": []
+      },
+      "4": {
+        "text": "Mạng điểm-điểm",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Khi bên cung cấp dịch vụ trình diễn không xác định đối tượng phía bên kia đầu giao tiếp có sẵn sàng hay không, bên cung cấp sẽ lựa chọn nhóm giao thức nào ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Nhóm giao thức Default context",
-      "2": "Nhóm giao thức Defined context set"
+      "1": {
+        "text": "Nhóm giao thức Default context",
+        "images": []
+      },
+      "2": {
+        "text": "Nhóm giao thức Defined context set",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Khi một gói tin đến trạm đích, nó sẽ được kiểm tra để phát hiện lỗi và sửa lỗi (nếu có). Chức anwng này được thực hiện ở tầng thứ mấy trong mô hình OSI",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "2",
-      "2": "3",
-      "3": "4",
-      "4": "7"
+      "1": {
+        "text": "2",
+        "images": []
+      },
+      "2": {
+        "text": "3",
+        "images": []
+      },
+      "3": {
+        "text": "4",
+        "images": []
+      },
+      "4": {
+        "text": "7",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Khi sử dụng QoS tại sao chất lượng của dịch vụ được tăng lên?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Do QoS sẽ chiếm hoàn toàn quyền sử dụng đường truyền.",
-      "2": "Do QoS sẽ khử được các nhiễu trong các gói tin",
-      "3": "Do QoS sẽ phân luồng được các gói tin nên các gói tin có độ ưu tiên cao sẽ được phục vụ trước",
-      "4": "Do QoS sẽ yêu cầu truyền tín hiệu với cường độ gấp đôi khi không sử dụng QoS"
+      "1": {
+        "text": "Do QoS sẽ chiếm hoàn toàn quyền sử dụng đường truyền.",
+        "images": []
+      },
+      "2": {
+        "text": "Do QoS sẽ khử được các nhiễu trong các gói tin",
+        "images": []
+      },
+      "3": {
+        "text": "Do QoS sẽ phân luồng được các gói tin nên các gói tin có độ ưu tiên cao sẽ được phục vụ trước",
+        "images": []
+      },
+      "4": {
+        "text": "Do QoS sẽ yêu cầu truyền tín hiệu với cường độ gấp đôi khi không sử dụng QoS",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Khi thực thể TCP gửi một gói SYNACK segment với trường Acknowledgement Number = 100, điều này có nghĩa là?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Nó hy vọng nhận được dữ liệu bắt đầu bằng byte có số thứ tự 100",
-      "2": "Byte dữ liệu đầu tiên trong dòng dữ liệu sẽ gửi đi có số thứ tự là 100",
-      "3": "Gói dữ liệu nó gửi đi bắt đầu bằng byte thứ 100 trong dòng dữ liệu",
-      "4": "Nó sẽ gửi từ byte thứ 100"
+      "1": {
+        "text": "Nó hy vọng nhận được dữ liệu bắt đầu bằng byte có số thứ tự 100",
+        "images": []
+      },
+      "2": {
+        "text": "Byte dữ liệu đầu tiên trong dòng dữ liệu sẽ gửi đi có số thứ tự là 100",
+        "images": []
+      },
+      "3": {
+        "text": "Gói dữ liệu nó gửi đi bắt đầu bằng byte thứ 100 trong dòng dữ liệu",
+        "images": []
+      },
+      "4": {
+        "text": "Nó sẽ gửi từ byte thứ 100",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Loại địa chỉ Logic được sử dụng trong giao thức TCP là gì ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Số hiệu cổng",
-      "2": "Địa chỉ IP",
-      "3": "Địa chỉ MAC",
-      "4": "Số hiệu Socket"
+      "1": {
+        "text": "Số hiệu cổng",
+        "images": []
+      },
+      "2": {
+        "text": "Địa chỉ IP",
+        "images": []
+      },
+      "3": {
+        "text": "Địa chỉ MAC",
+        "images": []
+      },
+      "4": {
+        "text": "Số hiệu Socket",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Một gói tin trong giao thức IP tầng 3 được gọi là gì ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Data",
-      "2": "Frame",
-      "3": "Packet",
-      "4": "Segment"
+      "1": {
+        "text": "Data",
+        "images": []
+      },
+      "2": {
+        "text": "Frame",
+        "images": []
+      },
+      "3": {
+        "text": "Packet",
+        "images": []
+      },
+      "4": {
+        "text": "Segment",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Những phương pháp nào để diều khiển chống tắc nghẽn ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Gửi thông báo tắc nghẽn",
-      "2": "Sử dụng vòng đóng",
-      "3": "Sử dụng vòng mở",
-      "4": "Tất cả các phương án"
+      "1": {
+        "text": "Gửi thông báo tắc nghẽn",
+        "images": []
+      },
+      "2": {
+        "text": "Sử dụng vòng đóng",
+        "images": []
+      },
+      "3": {
+        "text": "Sử dụng vòng mở",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả các phương án",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Phương pháp điều khiển dòng truyền tại tầng 2 là phương pháp nào ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Slidding Windows",
-      "2": "LRC",
-      "3": "Parity",
-      "4": "VRC"
+      "1": {
+        "text": "Slidding Windows",
+        "images": []
+      },
+      "2": {
+        "text": "LRC",
+        "images": []
+      },
+      "3": {
+        "text": "Parity",
+        "images": []
+      },
+      "4": {
+        "text": "VRC",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Phương pháp nào được dùng để phân tách các khung tin ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Tất cả các phương pháp",
-      "2": "Đếm số ký tự",
-      "3": "Dùng các cờ (flag) đánh dấu bắt đầu và kết thúc với các bit đệm",
-      "4": "Dùng ký tự bắt đầu (STX) và kết thúc (ETX) với ký tự đệm (DLE)"
+      "1": {
+        "text": "Tất cả các phương pháp",
+        "images": []
+      },
+      "2": {
+        "text": "Đếm số ký tự",
+        "images": []
+      },
+      "3": {
+        "text": "Dùng các cờ (flag) đánh dấu bắt đầu và kết thúc với các bit đệm",
+        "images": []
+      },
+      "4": {
+        "text": "Dùng ký tự bắt đầu (STX) và kết thúc (ETX) với ký tự đệm (DLE)",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Phương pháp nén gói tin bằng cách thay thế một dãy các dấu cách bằng một mã nén và một giá trị số lượng các dấu cách là phương pháp nào?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Null compression",
-      "2": "Keyword encoding",
-      "3": "Phương pháp thống kế Huffman",
-      "4": "Run-length compression"
+      "1": {
+        "text": "Null compression",
+        "images": []
+      },
+      "2": {
+        "text": "Keyword encoding",
+        "images": []
+      },
+      "3": {
+        "text": "Phương pháp thống kế Huffman",
+        "images": []
+      },
+      "4": {
+        "text": "Run-length compression",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Phương pháp truyền tin nào cho phép tiến hành các đợi truyền dữ liệu đồng thời bằng cách cung cấp cho mỗi thiết bị một kênh truyền thông riêng biệt",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Full-duplex",
-      "2": "Half-duplex",
-      "3": "Simplex",
-      "4": "Tất cả các phương án"
+      "1": {
+        "text": "Full-duplex",
+        "images": []
+      },
+      "2": {
+        "text": "Half-duplex",
+        "images": []
+      },
+      "3": {
+        "text": "Simplex",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả các phương án",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Phương pháp xác định lỗi của khung tin dựa trên nguyên lý cân bằng các bit chẵn lẻ để chỉ ra lỗi là phương pháp nào ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Hamming",
-      "2": "LRC",
-      "3": "Parity",
-      "4": "VRC"
+      "1": {
+        "text": "Hamming",
+        "images": []
+      },
+      "2": {
+        "text": "LRC",
+        "images": []
+      },
+      "3": {
+        "text": "Parity",
+        "images": []
+      },
+      "4": {
+        "text": "VRC",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Số lượng giao thức xuất hiện trên tầng ứng dụng là bao nhiêu",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "4",
-      "2": "5",
-      "3": "6",
-      "4": "Không hạn chế"
+      "1": {
+        "text": "4",
+        "images": []
+      },
+      "2": {
+        "text": "5",
+        "images": []
+      },
+      "3": {
+        "text": "6",
+        "images": []
+      },
+      "4": {
+        "text": "Không hạn chế",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Số lượng tầng trong mô hình TCP là bao nhiêu",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "4",
-      "2": "5",
-      "3": "6",
-      "4": "7"
+      "1": {
+        "text": "4",
+        "images": []
+      },
+      "2": {
+        "text": "5",
+        "images": []
+      },
+      "3": {
+        "text": "6",
+        "images": []
+      },
+      "4": {
+        "text": "7",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Tầng nào trong mô hình OSI thiết lập, duy trì hoặc hủy bỏ các giao dịch giữa các thực thể đầu cuối",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Tầng giao vận",
-      "2": "Tầng mạng",
-      "3": "Tầng phiên",
-      "4": "Tầng trình diễn"
+      "1": {
+        "text": "Tầng giao vận",
+        "images": []
+      },
+      "2": {
+        "text": "Tầng mạng",
+        "images": []
+      },
+      "3": {
+        "text": "Tầng phiên",
+        "images": []
+      },
+      "4": {
+        "text": "Tầng trình diễn",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Tầng phiên có thể khôi phục hội thoại nhờ vào cơ chế nào ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Dùng cơ chế hội thoại, trước khi kết thúc hội thoại mỗi bên sẽ báo dung lượng dữ liệu đã trao đổi",
-      "2": "Lưu trữ dung lượng đã trao đổi",
-      "3": "Sử dụng các điểm đánh dấu hội thoại gọi là các điểm ngắt.",
-      "4": "Sử dụng các điểm khôi phục gọi là các điểm đồng bộ"
+      "1": {
+        "text": "Dùng cơ chế hội thoại, trước khi kết thúc hội thoại mỗi bên sẽ báo dung lượng dữ liệu đã trao đổi",
+        "images": []
+      },
+      "2": {
+        "text": "Lưu trữ dung lượng đã trao đổi",
+        "images": []
+      },
+      "3": {
+        "text": "Sử dụng các điểm đánh dấu hội thoại gọi là các điểm ngắt.",
+        "images": []
+      },
+      "4": {
+        "text": "Sử dụng các điểm khôi phục gọi là các điểm đồng bộ",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Tầng truy cập mạng Network Access trong mô hình TCP đóng vai trò tương đương với các tầng nào của mô hình OSI.",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Tương đương với Data Link và Physical",
-      "2": "Tương đương với tầng Data Link",
-      "3": "Tương đương với tầng Network",
-      "4": "Tương đương với tầng Transport"
+      "1": {
+        "text": "Tương đương với Data Link và Physical",
+        "images": []
+      },
+      "2": {
+        "text": "Tương đương với tầng Data Link",
+        "images": []
+      },
+      "3": {
+        "text": "Tương đương với tầng Network",
+        "images": []
+      },
+      "4": {
+        "text": "Tương đương với tầng Transport",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Tên miền ehou.edu.vn có thể gán với bao nhiêu địa chỉ IP",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "1",
-      "2": "10",
-      "3": "5",
-      "4": "Không hạn chế"
+      "1": {
+        "text": "1",
+        "images": []
+      },
+      "2": {
+        "text": "10",
+        "images": []
+      },
+      "3": {
+        "text": "5",
+        "images": []
+      },
+      "4": {
+        "text": "Không hạn chế",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Theo mô hình OSI, định dạng ảnh JPEG nằm ở tầng nào?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Tầng mạng",
-      "2": "Tầng phiên",
-      "3": "Tầng trình diễn",
-      "4": "Tầng ứng dụng"
+      "1": {
+        "text": "Tầng mạng",
+        "images": []
+      },
+      "2": {
+        "text": "Tầng phiên",
+        "images": []
+      },
+      "3": {
+        "text": "Tầng trình diễn",
+        "images": []
+      },
+      "4": {
+        "text": "Tầng ứng dụng",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Thiết bị nào sau đây được sử dụng tại trung tâm của mạng hình sao?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Switch",
-      "2": "Brigde",
-      "3": "Netcard",
-      "4": "Repeater"
+      "1": {
+        "text": "Switch",
+        "images": []
+      },
+      "2": {
+        "text": "Brigde",
+        "images": []
+      },
+      "3": {
+        "text": "Netcard",
+        "images": []
+      },
+      "4": {
+        "text": "Repeater",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Thứ tự các tầng (layer) của mô hình OSI theo thứ tự từ trên xuống là gì ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Application, Presentation, Session, Network, Transport, Data Link, Physical",
-      "2": "Application, Presentation, Session, Transport, Data Link, Network, Physical",
-      "3": "Application, Presentation, Session, Transport, Network, Data Link, Physical",
-      "4": "Application, Presentation, Transport, Session, Data Link, Network, Physical"
+      "1": {
+        "text": "Application, Presentation, Session, Network, Transport, Data Link, Physical",
+        "images": []
+      },
+      "2": {
+        "text": "Application, Presentation, Session, Transport, Data Link, Network, Physical",
+        "images": []
+      },
+      "3": {
+        "text": "Application, Presentation, Session, Transport, Network, Data Link, Physical",
+        "images": []
+      },
+      "4": {
+        "text": "Application, Presentation, Transport, Session, Data Link, Network, Physical",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Tín hiệu DCHPDISCOVER là tín hiệu được gửi từ đâu ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Từ Client đến các Host trung gian để chuyển tiếp đến DHCP gần nó nhất",
-      "2": "Từ Client gửi quảng bá đến Server yêu cầu cấp phát địa chỉ IP",
-      "3": "Từ Server về các Client tìm xem Client nào chưa có địa chỉ IP để cấp phát",
-      "4": "Từ Server về Host trung gian đển chuyển tiếp đến Client gần nó nhất mà chưa có IP"
+      "1": {
+        "text": "Từ Client đến các Host trung gian để chuyển tiếp đến DHCP gần nó nhất",
+        "images": []
+      },
+      "2": {
+        "text": "Từ Client gửi quảng bá đến Server yêu cầu cấp phát địa chỉ IP",
+        "images": []
+      },
+      "3": {
+        "text": "Từ Server về các Client tìm xem Client nào chưa có địa chỉ IP để cấp phát",
+        "images": []
+      },
+      "4": {
+        "text": "Từ Server về Host trung gian đển chuyển tiếp đến Client gần nó nhất mà chưa có IP",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Tốc độ truyền tin của cáp đồng trục (loại Thick) có thể đạt được tối đa là bao nhiêu ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Từ 10Mbs đến 30Mbs.",
-      "2": "Nhỏ hơn 10Mbs",
-      "3": "Từ 100Mbs đến 300Mbs",
-      "4": "Từ 30Mbs đến 100 Mbs"
+      "1": {
+        "text": "Từ 10Mbs đến 30Mbs.",
+        "images": []
+      },
+      "2": {
+        "text": "Nhỏ hơn 10Mbs",
+        "images": []
+      },
+      "3": {
+        "text": "Từ 100Mbs đến 300Mbs",
+        "images": []
+      },
+      "4": {
+        "text": "Từ 30Mbs đến 100 Mbs",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Trong các tầng sau đây của mô hình OSI tầng nào chịu trách nhiệm biến đổi dữ liệu thành các ‘ngôn ngữ’ chung của mạng",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Tầng giao vận",
-      "2": "Tầng phiên",
-      "3": "Tầng trình diễn",
-      "4": "Tầng ứng dụng"
+      "1": {
+        "text": "Tầng giao vận",
+        "images": []
+      },
+      "2": {
+        "text": "Tầng phiên",
+        "images": []
+      },
+      "3": {
+        "text": "Tầng trình diễn",
+        "images": []
+      },
+      "4": {
+        "text": "Tầng ứng dụng",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Trong giao thức HDLC để đánh dấu khung tin người ta sử dụng phương pháp nào",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Sử dụng cờ đánh dấu Flag và quy ước trong dữ liệu sẽ chèn bit 0 sau 5 bit 1 liên tiếp",
-      "2": "Bit chẵn lẻ Parity",
-      "3": "Đếm số ký tự",
-      "4": "Sử dụng VRC và LRC kết hợp"
+      "1": {
+        "text": "Sử dụng cờ đánh dấu Flag và quy ước trong dữ liệu sẽ chèn bit 0 sau 5 bit 1 liên tiếp",
+        "images": []
+      },
+      "2": {
+        "text": "Bit chẵn lẻ Parity",
+        "images": []
+      },
+      "3": {
+        "text": "Đếm số ký tự",
+        "images": []
+      },
+      "4": {
+        "text": "Sử dụng VRC và LRC kết hợp",
+        "images": []
+      }
     },
     "correctAnswer": 1
   },
   {
     "question": "Trong liên kết phiên làm việc với tầng giao vận có những trường hợp nào xảy ra ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "1. Một liên kết giao vận thiết lập với nhiều phiên liên tiếp.2. Một liên kết giao vận thiết lập với một liên kết phiên",
-      "2": "1. Nhiều liên kết giao vận sử dụng cùng một phiên liên kết.2. Một liên kết giao vận sử dụng duy nhất liên kết phiên",
-      "3": "1. Nhiều liên kết giao vận sử dụng cùng một phiên liên kết.2. Một liên kết giao vận sử dụng nhiều liên kết phiên",
-      "4": "Tất cả đều đúng"
+      "1": {
+        "text": "1. Một liên kết giao vận thiết lập với nhiều phiên liên tiếp.2. Một liên kết giao vận thiết lập với một liên kết phiên",
+        "images": []
+      },
+      "2": {
+        "text": "1. Nhiều liên kết giao vận sử dụng cùng một phiên liên kết.2. Một liên kết giao vận sử dụng duy nhất liên kết phiên",
+        "images": []
+      },
+      "3": {
+        "text": "1. Nhiều liên kết giao vận sử dụng cùng một phiên liên kết.2. Một liên kết giao vận sử dụng nhiều liên kết phiên",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả đều đúng",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Trong phiên dịch thứ tự byte các CPU của Intel sẽ ưu tiên thứ tự phiên dịch, truyền dữ liệu như thế nào ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Ưu tiên theo độ dài của dữ liệu ít nhất được gửi trước",
-      "2": "Ưu tiên theo độ dài của dữ liệu lớn nhất được gửi trước",
-      "3": "Ưu tiên theo thứ tự quan trọng trước",
-      "4": "Ưu tiên theo thứ tự từ byte ít quan trọng trước"
+      "1": {
+        "text": "Ưu tiên theo độ dài của dữ liệu ít nhất được gửi trước",
+        "images": []
+      },
+      "2": {
+        "text": "Ưu tiên theo độ dài của dữ liệu lớn nhất được gửi trước",
+        "images": []
+      },
+      "3": {
+        "text": "Ưu tiên theo thứ tự quan trọng trước",
+        "images": []
+      },
+      "4": {
+        "text": "Ưu tiên theo thứ tự từ byte ít quan trọng trước",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Trong quá trình truyền tin giai đoạn mã hóa “EnCode” nhằm thực hiện điều gì?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Mã hóa dữ liệu để tăng cường an ninh cho dữ liệu",
-      "2": "Mã hóa dữ liệu sang dạng mã nhị phân để chuẩn bị truyền tin trên mạng",
-      "3": "Mã hóa dữ liệu sang ngôn ngữ của giao thức để chuẩn bị đưa lên đường truyền",
-      "4": "Mã hóa dữ liệu thành các khối để dữ liệu nằm trong vẹn trên các khối dữ liệu để truyền đi."
+      "1": {
+        "text": "Mã hóa dữ liệu để tăng cường an ninh cho dữ liệu",
+        "images": []
+      },
+      "2": {
+        "text": "Mã hóa dữ liệu sang dạng mã nhị phân để chuẩn bị truyền tin trên mạng",
+        "images": []
+      },
+      "3": {
+        "text": "Mã hóa dữ liệu sang ngôn ngữ của giao thức để chuẩn bị đưa lên đường truyền",
+        "images": []
+      },
+      "4": {
+        "text": "Mã hóa dữ liệu thành các khối để dữ liệu nằm trong vẹn trên các khối dữ liệu để truyền đi.",
+        "images": []
+      }
     },
     "correctAnswer": null
   },
   {
     "question": "Yếu tố nào sau đây gây nên tắc nghẽn mạng ?",
-    "image": [],
+    "question_images": [],
     "options": {
-      "1": "Đường truyền bị sự cố.",
-      "2": "Router bị hỏng",
-      "3": "Sự mất cân đối giữa đường truyền và năng lực xử lý Router",
-      "4": "Tất cả đều đúng"
+      "1": {
+        "text": "Đường truyền bị sự cố.",
+        "images": []
+      },
+      "2": {
+        "text": "Router bị hỏng",
+        "images": []
+      },
+      "3": {
+        "text": "Sự mất cân đối giữa đường truyền và năng lực xử lý Router",
+        "images": []
+      },
+      "4": {
+        "text": "Tất cả đều đúng",
+        "images": []
+      }
     },
     "correctAnswer": null
   }

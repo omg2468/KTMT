@@ -85,9 +85,14 @@
 
         div.id = anchor;
 
-        // Nếu image là array
-        if (Array.isArray(q.image)) {
-          q.image.forEach(imgUrl => {
+        // Câu hỏi văn bản
+        const p = document.createElement("p");
+        p.innerHTML = `<strong>Câu ${index + 1}:</strong> ${q.question}`;
+        div.appendChild(p);
+
+        // Hiển thị ảnh trong câu hỏi, sau văn bản câu hỏi
+        if (Array.isArray(q.question_images)) {
+          q.question_images.forEach(imgUrl => {
             const img = document.createElement("img");
             img.src = imgUrl;
             img.alt = `Câu ${index + 1}`;
@@ -95,16 +100,24 @@
           });
         }
 
-        // Câu hỏi
-        const p = document.createElement("p");
-        p.innerHTML = `<strong>Câu ${index + 1}:</strong> ${q.question}`;
-        div.appendChild(p);
-
-        // Lựa chọn
+        // Lựa chọn đáp án
         const ul = document.createElement("ul");
         for (const key in q.options) {
           const li = document.createElement("li");
-          li.textContent = `${key}. ${q.options[key]}`;
+
+          // Nếu có ảnh trong đáp án
+          const optionImages = q.options[key].images;
+          li.textContent = `${key}. ${q.options[key].text}`;
+
+          if (optionImages.length > 0) {
+            optionImages.forEach(imgUrl => {
+              const img = document.createElement("img");
+              img.src = imgUrl;
+              img.alt = `Ảnh trong đáp án ${key}`;
+              li.appendChild(img);
+            });
+          }
+
           if (key == q.correctAnswer) {
             li.classList.add("correct");
             li.textContent = `✔ ${li.textContent}`;
@@ -121,7 +134,7 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    // Search
+    // Tìm kiếm câu hỏi
     document.getElementById("searchInput").addEventListener("input", function() {
       const filter = this.value.toLowerCase();
       const questions = document.querySelectorAll(".question");
