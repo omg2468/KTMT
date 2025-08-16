@@ -163,7 +163,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 6,
@@ -197,7 +197,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 7,
@@ -317,7 +317,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 11,
@@ -823,7 +823,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 26,
@@ -857,7 +857,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 4
   },
   {
     "index": 27,
@@ -983,7 +983,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 31,
@@ -1009,7 +1009,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 32,
@@ -1279,7 +1279,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 41,
@@ -1309,7 +1309,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 1
   },
   {
     "index": 42,
@@ -1480,7 +1480,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 47,
@@ -1742,11 +1742,11 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 55,
-    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất\n\ny’’- 2y’+ 2y=x2",
+    "question": "Giải phương trình vi phân cấp 2 hệ số hằng thuần nhất\n\ny’’- 2y’+ 2y=x^2",
     "question_images": [],
     "options": {
       "1": {
@@ -1774,7 +1774,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 56,
@@ -2208,7 +2208,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 71,
@@ -3209,7 +3209,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 103,
@@ -3235,7 +3235,7 @@
         "images": []
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 3
   },
   {
     "index": 104,
@@ -3503,7 +3503,7 @@
         ]
       }
     },
-    "correctAnswer": null
+    "correctAnswer": 2
   },
   {
     "index": 113,
