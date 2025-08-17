@@ -1,6 +1,10 @@
 [
+  "EG10-1-incomplete.json",
   "EG10-1.json",
   "EG12.json",
+  "EG12_solved_with_AI_full.json",
   "IT06.json",
-  "IT11.json"
+  "IT06_chatGPT.json",
+  "IT11.json",
+  "IT11_solved_with_AI.json"
 ]

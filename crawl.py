@@ -10,70 +10,54 @@ def parse_html_to_json(file_path):
     soup = BeautifulSoup(html_content, "html.parser")
     questions_data = []
 
-    card_blocks = soup.find_all("div", class_="card card-pricing text-left")
+    # Lấy tất cả thẻ h5 nằm trong 2 dạng div chính
+    h5_tags = soup.select("div.card-body h5, div.col-md-12.ml-auto.mr-auto h5")
 
-    for index, card in enumerate(card_blocks, start=1):  # Add index here
-        h5 = card.find("h5")
-        if not h5:
-            continue
+    for index, h5 in enumerate(h5_tags, start=1):
+        # ===== Lấy câu hỏi (bỏ <small>) =====
+        question_text = "".join(
+            child.strip() for child in h5.children if child.name != "small" and isinstance(child, str)
+        ).strip()
 
-        # Lấy câu hỏi: chỉ lấy văn bản ngoài phần <small>
-        question_text = ""
-        for child in h5.children:
-            if child.name == "small":
-                continue  # Bỏ qua các phần tử <small>
-            if isinstance(child, str):  # Lấy văn bản
-                question_text += child.strip()
+        # ===== Lấy ảnh trong câu hỏi =====
+        question_image_tags = [img["src"].strip() for img in h5.find_all("img") if not img.find_parent("small")]
 
-        question_text = question_text.strip()
-
-        # Lọc chỉ lấy ảnh trong phần câu hỏi (thẻ h5), không lấy ảnh trong các thẻ <small>
-        question_image_tags = h5.find_all("img")
-        question_image_urls = []
-        for img in question_image_tags:
-            if not img.find_parent("small"):  # Kiểm tra ảnh không nằm trong thẻ <small>
-                question_image_urls.append(img["src"].strip())
-
-        # Lấy đáp án và các hình ảnh trong đáp án
+        # ===== Lấy đáp án =====
         options_tags = h5.find_all("small")
         options = {}
         correct_answer = None
 
         for idx, opt_tag in enumerate(options_tags, start=1):
             opt_html = str(opt_tag)
-
-            # Xóa icon trước khi lấy text
             for icon in opt_tag.find_all("i"):
                 icon.decompose()
 
-            opt_text = opt_tag.get_text(strip=True)
+            opt_text = opt_tag.get_text(strip=True).replace("\xa0", " ")
 
-            # Lấy tất cả ảnh trong phần đáp án
-            option_image_tags = opt_tag.find_all("img")
-            option_image_urls = [img["src"].strip() for img in option_image_tags if img.get("src")]
+            option_image_urls = [img["src"].strip() for img in opt_tag.find_all("img") if img.get("src")]
 
             if "#4caf50" in opt_html or "check_box" in opt_html:
                 correct_answer = idx
 
             options[str(idx)] = {
-                "text": opt_text.replace("\xa0", " ").strip(),
-                "images": option_image_urls  # Thêm ảnh vào đáp án
+                "text": opt_text,
+                "images": option_image_urls
             }
 
-        # Append index to the question data
         questions_data.append({
-            "index": index,  # Add index number
+            "index": index,
             "question": question_text,
-            "question_images": question_image_urls,  # Chỉ lấy ảnh trong phần câu hỏi
+            "question_images": question_image_tags,
             "options": options,
-            "correctAnswer": correct_answer if correct_answer is not None else None
+            "correctAnswer": correct_answer
         })
 
     return questions_data
 
 
+
 # ====== MAIN ======
-url = "http://ehou.online/dap-an-mon-hoc-ehou/EG10-1"
+url = "http://ehou.online/dap-an-mon-hoc-ehou/EG12"
 
 os.makedirs("html", exist_ok=True)
 os.makedirs("json", exist_ok=True)
